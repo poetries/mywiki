@@ -31,6 +31,17 @@
 - [在线API大全](http://devdocs.io/)
 - [阿里巴巴矢量图标库](http://www.iconfont.cn/)
 
+## 在线编程
+
+- [在线工具](http://tool.oschina.net/)
+- [codepen](http://codepen.io/pen)
+- [JS Bin](http://jsbin.com/?html,output)
+
+
+##  设计类
+
+- [设计导航](http://hao.shejidaren.com/)
+- [admire](https://admire.so/)
 
 
 ## 一些做得比较好的m站
