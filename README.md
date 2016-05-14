@@ -15,9 +15,23 @@
 - [智图](http://image.tencent.com/) 图片在线压缩
 - [iSparta－PNG压缩与格式转换工具](http://isparta.github.io/index.html)
 
-## 好玩
+## 导航类
 
-- [POP! crackART](http://www.goodboydigital.com/pixijs/cracker/) 爆炸糖果
+- [最牛前端](http://f2er.club/)
+- [前端导航网址](http://caibaojian.com/links)
+- [菜鸟教程](http://www.runoob.com/)
+- [FED社区](http://frontenddev.org/discover/)
+- [前端资源库](https://www.awesomes.cn/)
+-
+
+## 实用文档API
+
+- [极客学院wiki](http://wiki.jikexueyuan.com/)
+- [overapi](http://overapi.com/)
+- [在线API大全](http://devdocs.io/)
+- [阿里巴巴矢量图标库](http://www.iconfont.cn/)
+
+
 
 ## 一些做得比较好的m站
 ### 国内站
