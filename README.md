@@ -29,6 +29,7 @@
 - [极客学院wiki](http://wiki.jikexueyuan.com/)
 - [overapi](http://overapi.com/)
 - [在线API大全](http://devdocs.io/)
+- [在线桌面版本API,在线chm文档,中文在线API,在线API,在线帮助文档](http://www.sxt.cn/searchsxt/sxtapipro/index.html)
 - [阿里巴巴矢量图标库](http://www.iconfont.cn/)
 
 ## 在线编程
