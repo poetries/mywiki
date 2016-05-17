@@ -22,6 +22,7 @@
 - [菜鸟教程](http://www.runoob.com/)
 - [FED社区](http://frontenddev.org/discover/)
 - [前端资源库](https://www.awesomes.cn/)
+- [大数据工具导航](http://hao.199it.com/)
 
 
 ## 实用文档API
