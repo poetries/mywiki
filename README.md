@@ -39,6 +39,22 @@
 - [codepen](http://codepen.io/pen)
 - [JS Bin](http://jsbin.com/?html,output)
 
+## 在线学习好去处
+
+国内：
+
+- [实验楼](https://www.shiyanlou.com)
+- [慕课网](http://imooc.com)
+- [网易云课堂](http://study.163.com/)
+- [极客学院](http://www.jikexueyuan.com/)
+
+国外：
+
+- [可汗学院](https://www.khanacademy.org/)
+- [coursera](https://www.coursera.org/)
+- [codeschool](https://www.codeschool.com/learn)
+- [Edx](https://www.edx.org/)
+
 
 ##  设计类
 
