@@ -40,6 +40,29 @@
 
 - [阿里巴巴矢量图标库](http://www.iconfont.cn/)
 
+## 数据可视化-职场办公必备
+
+- 动态图标制作
+ - [百度图说](http://www.hcharts.cn/) 
+ - [Hcharts](http://www.hcharts.cn/)
+ - [Echarts](http://echarts.baidu.com/examples.html)
+ - [在线设计工具,简单,快速,轻松完成在线设计,创客贴](http://www.chuangkit.com/dc.html)
+ 
+- PPT必备
+
+  - PPT实用工具
+    - [PPT遥控器](https://ppt.baidu.com/)
+    - [Nordri Tools——让PPT变得简单起来](http://www.nordritools.com/)
+    - [主要是生成一个相对漂亮的背景](http://qrohlf.com/trianglify-generator/)
+
+  - 高质量PPT素材
+ 
+    - [PowerPoint Templates--国外--非常好](http://www.presentationload.com/)
+    - [PPT配图的好去处](https://pixabay.com/)
+    - [PPT模板免费,动态PPT模板](http://www.ppt20.com/)
+    - [ppt图表 | ppt创意设计](http://www.500d.me/ppt.jhtml)
+    - [中国最大PPT模板素材网站](http://www.yanj.cn/index.php?act=search&cate_id=1)
+
 ## 在线编程
 
 - [在线工具](http://tool.oschina.net/)
