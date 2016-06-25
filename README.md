@@ -38,7 +38,7 @@
 
   - [设计导航](http://hao.shejidaren.com/)
   - [admire-每天发现一个好链接](https://admire.so/)
-  - [优设网导](http://hao.uisdc.com/)
+  - [优设网导航](http://hao.uisdc.com/)
   - [专注于PPT设计的导航站](http://hippter.com/)
   - [图灵创意导航](http://turingchina.cn/)
  
