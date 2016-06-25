@@ -17,13 +17,30 @@
 
 ## 导航类
 
-- [最牛前端](http://f2er.club/)
-- [前端导航网址](http://caibaojian.com/links)
-- [菜鸟教程](http://www.runoob.com/)
-- [菜鸟导航](http://www.runoob.com/w3cnav)
-- [FED社区](http://frontenddev.org/discover/)
-- [前端资源库](https://www.awesomes.cn/)
-- [大数据工具导航](http://hao.199it.com/)
+- 前端
+
+  - [最牛前端](http://f2er.club/)
+  - [前端导航网址](http://caibaojian.com/links)
+  - [菜鸟教程](http://www.runoob.com/)
+  - [菜鸟导航](http://www.runoob.com/w3cnav)
+  - [FED社区](http://frontenddev.org/discover/)
+  - [前端资源库](https://www.awesomes.cn/)
+  
+- 大数据
+ 
+  - [大数据工具导航](http://hao.199it.com/)
+
+- 搜素
+
+  - [快搜--好用](http://so.chongbuluo.com/)
+
+- 设计
+
+  - [设计导航](http://hao.shejidaren.com/)
+  - [admire-每天发现一个好链接](https://admire.so/)
+  - [优设网导](http://hao.uisdc.com/)
+  - [专注于PPT设计的导航站](http://hippter.com/)
+ 
 
 
 ## 实用文档API
@@ -85,11 +102,6 @@
 - [codeschool](https://www.codeschool.com/learn)
 - [Edx](https://www.edx.org/)
 
-
-##  设计类
-
-- [设计导航](http://hao.shejidaren.com/)
-- [admire](https://admire.so/)
 
 
 ## 一些做得比较好的m站
