@@ -89,52 +89,58 @@
 
 ## 在线学习好去处
 
-国内：
+- 国内：
 
-- [实验楼](https://www.shiyanlou.com)
-- [慕课网](http://imooc.com)
-- [网易云课堂](http://study.163.com/)
-- [极客学院](http://www.jikexueyuan.com/)
+  - [实验楼](https://www.shiyanlou.com)
+  - [慕课网](http://imooc.com)
+  - [网易云课堂](http://study.163.com/)
+  - [极客学院](http://www.jikexueyuan.com/)
 
-国外：
+- 国外：
 
-- [可汗学院](https://www.khanacademy.org/)
-- [coursera](https://www.coursera.org/)
-- [codeschool](https://www.codeschool.com/learn)
-- [Edx](https://www.edx.org/)
+  - [可汗学院](https://www.khanacademy.org/)
+  - [coursera](https://www.coursera.org/)
+  - [codeschool](https://www.codeschool.com/learn)
+  - [Edx](https://www.edx.org/)
 
 
 
-## 一些做得比较好的m站
-### 国内站
-- [苏宁易购](http://m.suning.com)
-- [饿了么](http://ele.me)
-- [微博](http://m.weibo.cn)
-- [华住](http://h5.huazhu.com)
-
-### 国外站
  
 ## 插件库
 
-视差滚动插件
+- 视差滚动插件
 
-- [SUPERSCROLLORAMA](http://johnpolacek.github.io/superscrollorama/)
-- [johnpolacek/superscrollorama](https://github.com/johnpolacek/superscrollorama)
+  - [SUPERSCROLLORAMA](http://johnpolacek.github.io/superscrollorama/)
+  - [johnpolacek/superscrollorama](https://github.com/johnpolacek/superscrollorama)
 
-幻灯/切换
-- [qiqiboy/pageSwitch](https://github.com/qiqiboy/pageSwitch)
-- [nolimits4web/Swiper](https://github.com/nolimits4web/Swiper)
-- [H5fullscreenpage.js](http://lvming6816077.github.io/H5FullscreenPage/)
+- 幻灯/切换
 
-动画
-- [rstacruz/jquery.transit](https://github.com/rstacruz/jquery.transit)
-- [visionmedia/move.js](https://github.com/visionmedia/move.js)
-- [daneden/animate.css](https://github.com/daneden/animate.css)
+  - [qiqiboy/pageSwitch](https://github.com/qiqiboy/pageSwitch)
+  - [nolimits4web/Swiper](https://github.com/nolimits4web/Swiper)
+  - [H5fullscreenpage.js](http://lvming6816077.github.io/H5FullscreenPage/)
 
-相册
-- [支持各种手势操作的 dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+- 动画
+
+  - [rstacruz/jquery.transit](https://github.com/rstacruz/jquery.transit)
+  - [visionmedia/move.js](https://github.com/visionmedia/move.js)
+  - [daneden/animate.css](https://github.com/daneden/animate.css)
+
+- 相册
+
+  - [支持各种手势操作的 dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+
+## 一些做得比较好的m站
+
+- 国内站
+
+  - [苏宁易购](http://m.suning.com)
+  - [饿了么](http://ele.me)
+  - [微博](http://m.weibo.cn)
+  - [华住](http://h5.huazhu.com)
+
 
 ## 优秀的 Github 
 
 - [Baidu EFE team](https://github.com/ecomfe)
 - [ruanyf (Ruan YiFeng)](https://github.com/ruanyf)
+- [Phodal](https://github.com/phodal)
