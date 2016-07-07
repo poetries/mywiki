@@ -17,6 +17,7 @@
   - [为知笔记](http://www.wiz.cn/)
   - [番茄时间管理法](http://alloyteam.github.io/AlloyTimer/)
   - [奇妙清单](https://www.wunderlist.com/zh/)
+  - [XMind](http://www.xmindchina.net/)
 
 ---
 
