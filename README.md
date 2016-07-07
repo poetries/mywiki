@@ -4,11 +4,18 @@
 
 ---
 
-### 程序员缓解压力的网站
+### 缓解疲劳的网站
   
  - [Calm](https://www.calm.com/)
  - [donothingfor2minute](http://www.donothingfor2minutes.com/)
  - [A Soft Murmur](http://asoftmurmur.com/)
+
+---
+
+### 时间笔记管理
+
+  - [为知笔记](http://www.wiz.cn/)
+  - [番茄时间管理法](http://alloyteam.github.io/AlloyTimer/)
 
 ---
 
