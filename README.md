@@ -1,21 +1,22 @@
+---
 
-## [收录日常发现的好的文章和资源>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>](https://github.com/poetries/mywiki/issues)
+#### [收录日常发现的好的文章和资源>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>](https://github.com/poetries/mywiki/issues)
 
 ---
 
-## 程序员缓解压力的网站
+### 程序员缓解压力的网站
   
- - [Calm]https://www.calm.com/)
+ - [Calm](https://www.calm.com/)
  - [donothingfor2minute](http://www.donothingfor2minutes.com/)
  - [A Soft Murmur](http://asoftmurmur.com/)
 
-## 参考类
+### 参考类
 
 - [秀米 XIUMI | 秀米 XIUMI](http://xiumi.us/) 微信宣传轻应用制作
 - [易企秀|免费移动场景应用自营销管家](http://eqxiu.com/#/home) 微信宣传轻应用制作
 - [云来·中国最大的移动APP云服务提供商](http://www.liveapp.cn/) 微信宣传轻应用制作
 
-## 工具类
+### 工具类
 
   - 前端
     
@@ -79,7 +80,7 @@
     - [Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)
 
 
-## 导航类
+### 导航类
 
 - 前端
 
@@ -114,12 +115,12 @@
   - [用户体验导航 ](http://www.uedh.cn/index.php)
  
 
-## 矢量图库
+### 矢量图库
 
   - [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
   - [阿里巴巴矢量图标库](http://www.iconfont.cn/)
   
-## 实用参考手册
+### 实用参考手册
 
 - 综合类
   
@@ -170,7 +171,7 @@ JavaScript
   - [netease规范](http://nec.netease.com/standard)
   
 
-## 数据管理-可视化-办公-写作
+### 数据管理-可视化-办公-写作
 
 - 动态图标制作
  - [百度图说](http://www.hcharts.cn/) 
@@ -219,12 +220,12 @@ JavaScript
     
     
 
-## 在线编程
+### 在线编程
 
 - [codepen](http://codepen.io/pen)
 - [JS Bin](http://jsbin.com/?html,output)
 
-## 在线学习好去处
+### 在线学习好去处
 
 - 国内：
 
@@ -243,7 +244,7 @@ JavaScript
 
 
  
-## 插件库
+### 插件库
 
 - 视差滚动插件
 
@@ -266,7 +267,7 @@ JavaScript
 
   - [支持各种手势操作的 dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
 
-## 一些做得比较好的m站
+### 一些做得比较好的m站
 
 - 国内站
 
@@ -277,13 +278,13 @@ JavaScript
 
 ---
 
-## 优秀的 Github 
+### 优秀的 Github 
 
 - [Baidu EFE team](https://github.com/ecomfe)
 - [ruanyf (Ruan YiFeng)](https://github.com/ruanyf)
 - [Phodal](https://github.com/phodal)
 
-## 优秀的网站
+### 优秀的网站
 
 - 高质量
 
