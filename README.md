@@ -130,7 +130,7 @@
   - [在线桌面版本API,在线chm文档,中文在线API,在线API,在线帮助文档](http://www.sxt.cn/searchsxt/sxtapipro/index.html)
   - [在线工具箱](http://tool.oschina.net/)
  
-JavaScript
+- JavaScript
 
   - [ECMAScript 6简介](http://es6.ruanyifeng.com/#docs/intro)
   
@@ -288,12 +288,12 @@ JavaScript
 
 - 高质量
 
-- [阮一峰的网络日志](ww.ruanyifeng.com/blog/)
-- [张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com/)
-- [腾讯AlloyTeam Blog](http://www.alloyteam.com/)
+  - [阮一峰的网络日志](ww.ruanyifeng.com/blog/)
+  - [张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com/)
+  - [腾讯AlloyTeam Blog](http://www.alloyteam.com/)
 
 
- - 常逛网站
+- 常逛网站
 
   - 博客类
   
@@ -312,7 +312,7 @@ JavaScript
   
     - [码农周刊](http://weekly.manong.io/issues/)
     - [奇舞周刊](http://old.75team.com/weekly/)
-    - [技术周刊 - FEX【百度】](http://fex.baidu.com/weekly/)
+    - [技术周刊 - 百度FEX](http://fex.baidu.com/weekly/)
   
   - 问答社区
     
