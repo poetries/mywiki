@@ -10,11 +10,15 @@
  - [donothingfor2minute](http://www.donothingfor2minutes.com/)
  - [A Soft Murmur](http://asoftmurmur.com/)
 
+---
+
 ### 参考类
 
 - [秀米 XIUMI | 秀米 XIUMI](http://xiumi.us/) 微信宣传轻应用制作
 - [易企秀|免费移动场景应用自营销管家](http://eqxiu.com/#/home) 微信宣传轻应用制作
 - [云来·中国最大的移动APP云服务提供商](http://www.liveapp.cn/) 微信宣传轻应用制作
+
+---
 
 ### 工具类
 
@@ -79,6 +83,7 @@
     - [开放静态文件 CDN ](http://www.bootcdn.cn/)
     - [Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)
 
+---
 
 ### 导航类
 
@@ -120,6 +125,8 @@
   - [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
   - [阿里巴巴矢量图标库](http://www.iconfont.cn/)
   
+---  
+
 ### 实用参考手册
 
 - 综合类
@@ -170,6 +177,7 @@
   - [AlloyTeam团队规范文档](http://alloyteam.github.io/CodeGuide/)
   - [netease规范](http://nec.netease.com/standard)
   
+---
 
 ### 数据管理-可视化-办公-写作
 
@@ -213,12 +221,12 @@
     - [stackedit](https://stackedit.io/editor)
     
     
-    
   - 图床
     
     - [七牛云存储](https://portal.qiniu.com)
-    
-    
+  
+  
+---    
 
 ### 在线编程
 
@@ -242,7 +250,7 @@
   - [Edx](https://www.edx.org/)
 
 
-
+---
  
 ### 插件库
 
@@ -266,6 +274,8 @@
 - 相册
 
   - [支持各种手势操作的 dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+  
+---
 
 ### 一些做得比较好的m站
 
