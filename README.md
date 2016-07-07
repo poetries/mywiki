@@ -54,9 +54,7 @@
 - [查询ES6的支持度](https://kangax.github.io/compat-table/es6/)
 - [极客学院wiki](http://wiki.jikexueyuan.com/)
 
-## 在线矢量图库
 
-- [阿里巴巴矢量图标库](http://www.iconfont.cn/)
 
 ## 数据可视化-职场办公必备
 
@@ -80,6 +78,9 @@
     - [PPT模板免费,动态PPT模板](http://www.ppt20.com/)
     - [ppt图表 | ppt创意设计](http://www.500d.me/ppt.jhtml)
     - [中国最大PPT模板素材网站](http://www.yanj.cn/index.php?act=search&cate_id=1)
+    
+- [阿里巴巴矢量图标库](http://www.iconfont.cn/)
+
 
 ## 在线编程
 
