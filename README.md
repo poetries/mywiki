@@ -38,13 +38,6 @@
       - [智图](http://image.tencent.com/) 图片在线压缩
       - [iSparta－PNG压缩与格式转换工具](http://isparta.github.io/index.html)
       
-      
-    - JavaScript
-    
-      - [JavaScript 压缩](http://www.css88.com/tool/ysjs/)
-      - [格式化 Javascript](http://www.css88.com/tool/js_beautify/)
-      - [查询ES6的支持度](https://kangax.github.io/compat-table/es6/)
-      - [Bonsai：一套轻量级的JavaScript绘图库](http://orbit.bonsaijs.org/)
     
     - 实用类
     
