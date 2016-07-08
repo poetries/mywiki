@@ -45,70 +45,70 @@
         * [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
         * [ImageOptim — make websites and apps load faster (Mac app)](http://imageoptim.com/)
      
-     - Debug
-     
-        * [Firefox Developer Tools | MDN](https://developer.mozilla.org/en-US/docs/Tools)
-        * [Opera Dragonfly – Opera&#39;s built-in web developer tools](http://www.opera.com/dragonfly/)
-        * [Safari Developer Tools - Safari Technology Overview - Apple Developer](https://developer.apple.com/technologies/safari/developer-tools.html)
-        * [How to use F12 Developer Tools to Debug your Webpages (Windows)](http://msdn.microsoft.com/en-us/library/ie/gg589507.aspx)
-        * [DevTools Snippets](http://bgrins.github.io/devtools-snippets/)
-        * [LiveReload Help &amp; Support](http://feedback.livereload.com/knowledgebase/topics/10566-getting-started)
-        * [Learn to use Chrome DevTools - Code School](https://www.codeschool.com/courses/discover-devtools)
-            
-      - 效率
-        
-        * [Emmet 文档](http://yanxyz.github.io/emmet-docs/)
-        * [Cut&amp;Slice me - Photoshop plugin to export your assets - cut and slice me](http://www.cutandslice.me/)
-        * [Dan Rodney&#39;s List of Mac OS X Keyboard Shortcuts &amp; Keystrokes](http://www.danrodney.com/mac/)
-        * [MacRabbit - Slicy](http://macrabbit.com/slicy/)
+   - Debug
+   
+      * [Firefox Developer Tools | MDN](https://developer.mozilla.org/en-US/docs/Tools)
+      * [Opera Dragonfly – Opera&#39;s built-in web developer tools](http://www.opera.com/dragonfly/)
+      * [Safari Developer Tools - Safari Technology Overview - Apple Developer](https://developer.apple.com/technologies/safari/developer-tools.html)
+      * [How to use F12 Developer Tools to Debug your Webpages (Windows)](http://msdn.microsoft.com/en-us/library/ie/gg589507.aspx)
+      * [DevTools Snippets](http://bgrins.github.io/devtools-snippets/)
+      * [LiveReload Help &amp; Support](http://feedback.livereload.com/knowledgebase/topics/10566-getting-started)
+      * [Learn to use Chrome DevTools - Code School](https://www.codeschool.com/courses/discover-devtools)
+          
+    - 效率
       
-      - Github
-
-        * [Github Rank (China)](http://githubrank.com/)
-        * [GITHUB 排名](https://github.com/search?langOverride=&language=&o=desc&p=1&q=location%3Achina&repo=&s=followers&start_value=1&type=Users)
-        * [Search · location:china](https://github.com/search?langOverride=&language=&o=desc&q=location%3Achina&repo=&s=followers&start_value=1&type=Users)
-        * [Github精选 - 爱学网](http://n22.cn/github/)
-      
-      - 转化
-      
-        * [Koala - LESS/Sass/Compass/CoffeeScript编译工具](http://koala-app.com/index-zh.html)
-        * [Epub to Mobi](http://www.epub2mobi.com/result/b2c87cc5-15c9-455d-965d-f8146103f3d1)
-        * [Js2coffee](http://js2coffee.org/#)
-      
-      - 标准
-      
-        * [Web Design and Applications - W3C](http://www.w3.org/standards/webdesign/)
-        * [All Standards and Drafts - W3C](http://www.w3.org/TR/#w3c_all)
-        * [W3C中国](http://www.chinaw3c.org/)
-
-      
-    - 实用类
+      * [Emmet 文档](http://yanxyz.github.io/emmet-docs/)
+      * [Cut&amp;Slice me - Photoshop plugin to export your assets - cut and slice me](http://www.cutandslice.me/)
+      * [Dan Rodney&#39;s List of Mac OS X Keyboard Shortcuts &amp; Keystrokes](http://www.danrodney.com/mac/)
+      * [MacRabbit - Slicy](http://macrabbit.com/slicy/)
     
-      - [查询CSS3,HTML5的支持度](http://caniuse.com/)
-      - [让你的页面轻松适配各种移动设备和桌面端(PC)浏览器](http://ufologist.github.io/responsive-page/)
-      - [快切网页制作助手 - 超好用的网页制作&专题制作助手](http://kuaiqie.qdsay.com/)
-     
-     - 二维
+    - Github
+
+      * [Github Rank (China)](http://githubrank.com/)
+      * [GITHUB 排名](https://github.com/search?langOverride=&language=&o=desc&p=1&q=location%3Achina&repo=&s=followers&start_value=1&type=Users)
+      * [Search · location:china](https://github.com/search?langOverride=&language=&o=desc&q=location%3Achina&repo=&s=followers&start_value=1&type=Users)
+      * [Github精选 - 爱学网](http://n22.cn/github/)
     
-      * [IMG2TXT: ASCII Art Made Easy!](http://www.degraeve.com/img2txt.php)
-      * [t.y.p.o.r.g.a.n.i.s.m : ASCII-O-Matic](http://www.typorganism.com/asciiomatic/)
-      * [Text to ASCII Art Generator (TAAG)](http://patorjk.com/software/taag/#p=testall&f=Linux&t=%E6%90%9E%E5%9F%BA)
+    - 转化
+    
+      * [Koala - LESS/Sass/Compass/CoffeeScript编译工具](http://koala-app.com/index-zh.html)
+      * [Epub to Mobi](http://www.epub2mobi.com/result/b2c87cc5-15c9-455d-965d-f8146103f3d1)
+      * [Js2coffee](http://js2coffee.org/#)
+    
+    - 标准
+    
+      * [Web Design and Applications - W3C](http://www.w3.org/standards/webdesign/)
+      * [All Standards and Drafts - W3C](http://www.w3.org/TR/#w3c_all)
+      * [W3C中国](http://www.chinaw3c.org/)
+
       
-    - 市场研究&社会化
-        
-      - [中国最强大的社会化图文分享工具](http://www.bshare.cn/)
-      - [多说 - 社会化评论系统](http://duoshuo.com/)
-      - [百度统计流量研究院](http://tongji.baidu.com/data/browser/)
+  - 实用类
+  
+    - [查询CSS3,HTML5的支持度](http://caniuse.com/)
+    - [让你的页面轻松适配各种移动设备和桌面端(PC)浏览器](http://ufologist.github.io/responsive-page/)
+    - [快切网页制作助手 - 超好用的网页制作&专题制作助手](http://kuaiqie.qdsay.com/)
+     
+   - 二维
+  
+    * [IMG2TXT: ASCII Art Made Easy!](http://www.degraeve.com/img2txt.php)
+    * [t.y.p.o.r.g.a.n.i.s.m : ASCII-O-Matic](http://www.typorganism.com/asciiomatic/)
+    * [Text to ASCII Art Generator (TAAG)](http://patorjk.com/software/taag/#p=testall&f=Linux&t=%E6%90%9E%E5%9F%BA)
       
+  - 市场研究&社会化
+      
+    - [中国最强大的社会化图文分享工具](http://www.bshare.cn/)
+    - [多说 - 社会化评论系统](http://duoshuo.com/)
+    - [百度统计流量研究院](http://tongji.baidu.com/data/browser/)
+    
 
   
-  - 数据安全
-  
+ - 数据安全
+
     - [社工库查询 --查询密码是否有泄露（有数据就有危险）](http://cha.hx99.net/)
     - [IP地址查询--手机号码查询归属地 | 邮政编码查询 | 长途电话区号 | 身份证号码验证在线查询网](http://ip138.com/)
   
-  - 测评统计
-  
+ - 测评统计
+
     - [站长工具](http://www.aizhan.com/)
     - [奇云测](http://ce.cloud.360.cn/)
     - [网站测速|网站速度测试|网速测试|电信|联通|网通|全国|监控|CDN|PING|DNS 17CE.COM](http://www.17ce.com/)
@@ -121,7 +121,7 @@
     * [WebPagetest - Running web page performance and optimization test...](http://www.webpagetest.org/result/150209_6N_B65/)
 
 
-  - CDN服务
+ - CDN服务
   
     - [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
     - [百度静态资源公共库](http://cdn.code.baidu.com/)
