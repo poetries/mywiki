@@ -66,11 +66,6 @@
   - [网站设计-自动给出最佳配色](http://www.materialpalette.com/)
   - [用户体验导航 ](http://www.uedh.cn/index.php)
  
-
-### 矢量图库
-
-  - [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
-  - [阿里巴巴矢量图标库](http://www.iconfont.cn/)
   
 ---  
 
@@ -93,42 +88,6 @@
 
 
 ---
- 
-### 插件库
-
-- 视差滚动插件
-
-  - [SUPERSCROLLORAMA](http://johnpolacek.github.io/superscrollorama/)
-  - [johnpolacek/superscrollorama](https://github.com/johnpolacek/superscrollorama)
-
-- 幻灯/切换
-
-  - [qiqiboy/pageSwitch](https://github.com/qiqiboy/pageSwitch)
-  - [nolimits4web/Swiper](https://github.com/nolimits4web/Swiper)
-  - [H5fullscreenpage.js](http://lvming6816077.github.io/H5FullscreenPage/)
-
-- 动画
-
-  - [rstacruz/jquery.transit](https://github.com/rstacruz/jquery.transit)
-  - [visionmedia/move.js](https://github.com/visionmedia/move.js)
-  - [daneden/animate.css](https://github.com/daneden/animate.css)
-
-- 相册
-
-  - [支持各种手势操作的 dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
-  
----
-
-### 一些做得比较好的m站
-
-- 国内站
-
-  - [苏宁易购](http://m.suning.com)
-  - [饿了么](http://ele.me)
-  - [微博](http://m.weibo.cn)
-  - [华住](http://h5.huazhu.com)
-
----
 
 
 ## Resource 以下是分类
@@ -149,5 +108,5 @@
  - [性能](https://github.com/poetries/mywiki/blob/master/%E6%80%A7%E8%83%BD.md)
  - [数据管理](https://github.com/poetries/mywiki/blob/master/%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.md)
  - [在线代码运行](https://github.com/poetries/mywiki/blob/master/%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C.md)
-	
+ - [插件库](https://github.com/poetries/mywiki/blob/master/%E6%8F%92%E4%BB%B6%E5%BA%93%2Cmd)	
 
