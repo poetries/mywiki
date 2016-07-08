@@ -314,7 +314,7 @@
 
 - 常逛网站
 
-  - 博客类
+  - 博客&网站类
   
     - [豪情 - 博客园](http://www.cnblogs.com/jikey/)
     - [叶小钗](http://www.cnblogs.com/yexiaochai)
@@ -326,6 +326,7 @@
     - [w3ctech](http://www.w3ctech.com/)
     - [前端网](http://www.w3cfuns.com/)
     - [css-tricks](https://css-tricks.com/)
+    - [百度前端技术学院](http://ife.baidu.com/task/all)
   
   - 周刊类
   
