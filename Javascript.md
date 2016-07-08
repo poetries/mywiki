@@ -8,10 +8,10 @@
   - [格式化 Javascript](http://www.css88.com/tool/js_beautify/)
   - [查询ES6的支持度](https://kangax.github.io/compat-table/es6/)
   - [Bonsai：一套轻量级的JavaScript绘图库](http://orbit.bonsaijs.org/)
-      
+
 ---
 
-    - 综合
+- 综合
     
   * [JavaScript 秘密花园](http://bonsaiden.github.com/JavaScript-Garden/zh/#function.closures)
   * [&#39;BackboneApplication&#39; -](http://feliving.github.io/developing-backbone-applications/backup/#%E5%BA%8F)
