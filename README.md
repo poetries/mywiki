@@ -78,6 +78,17 @@
     - [开放静态文件 CDN ](http://www.bootcdn.cn/)
     - [Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)
 
+  - 在线代码运行
+
+    * [Pens picked by the Editors of CodePen](http://codepen.io/)
+    * [JS Bin - Collaborative JavaScript Debugging](http://jsbin.com/)
+    * [Cloud9 IDE | Your code anywhere, anytime](https://c9.io/)
+    * [RunJS - 在线编辑、展示、分享、交流你的 JavaScript 代码](http://runjs.cn/)
+    * [Runnable - Discover Everything through Code](http://runnable.com/)
+    * [Codewars](http://www.codewars.com/)
+    * [Koding | A New Way For Developers To Work](https://koding.com/)
+    * [Plunker](http://plnkr.co/)
+      
 ---
 
 ### 导航类
@@ -224,10 +235,6 @@
   
 ---    
 
-### 在线编程
-
-- [codepen](http://codepen.io/pen)
-- [JS Bin](http://jsbin.com/?html,output)
 
 ### 在线学习好去处
 
