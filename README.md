@@ -38,13 +38,6 @@
       - [智图](http://image.tencent.com/) 图片在线压缩
       - [iSparta－PNG压缩与格式转换工具](http://isparta.github.io/index.html)
       
-    - css小工具
-    
-      - [CSS3样式生成器-Css3演示](http://www.css88.com/tool/css3Preview/)
-      - [在线CSS3圆角生成器](http://www.lvyestudy.com/tools/border_radius.aspx)
-      - [CSS3渐变样式生成器，类似Photoshop中的渐变界面](http://www.colorzilla.com/gradient-editor/)
-      - [CSS背景颜色属性值转换](http://www.css88.com/demo/hex_color/)
-      - [CSS整理与优化工具](http://www.css88.com/tool/csstidy/)
       
     - JavaScript
     
