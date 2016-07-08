@@ -35,7 +35,7 @@
     
     - 图片类
     
-        - [智图](http://image.tencent.com/) 图片在线压缩
+        - [智图-图片在线压缩](http://image.tencent.com/) 
         - [iSparta－PNG压缩与格式转换工具](http://isparta.github.io/index.html)
       
     - 压缩
@@ -88,7 +88,7 @@
     - [让你的页面轻松适配各种移动设备和桌面端(PC)浏览器](http://ufologist.github.io/responsive-page/)
     - [快切网页制作助手 - 超好用的网页制作&专题制作助手](http://kuaiqie.qdsay.com/)
      
-   - 二维
+  - 二维
   
     * [IMG2TXT: ASCII Art Made Easy!](http://www.degraeve.com/img2txt.php)
     * [t.y.p.o.r.g.a.n.i.s.m : ASCII-O-Matic](http://www.typorganism.com/asciiomatic/)
@@ -128,7 +128,7 @@
     - [开放静态文件 CDN ](http://www.bootcdn.cn/)
     - [Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)
 
-  - 在线代码运行
+ - 在线代码运行
 
     * [Pens picked by the Editors of CodePen](http://codepen.io/)
     * [JS Bin - Collaborative JavaScript Debugging](http://jsbin.com/)
