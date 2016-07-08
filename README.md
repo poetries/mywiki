@@ -147,11 +147,13 @@
 
   - [最牛前端](http://f2er.club/)
   - [前端导航网址](http://caibaojian.com/links)
+  - [前端网址导航 - WHYCSS](http://whycss.com/)
   - [菜鸟教程](http://www.runoob.com/)
   - [菜鸟导航](http://www.runoob.com/w3cnav)
   - [前端工程师专用的导航站](http://www.css88.com/nav/)
   - [各种框架汇总](https://www.awesomes.cn/repos/Applications/Frameworks)
   - [伯乐在线](http://hao.jobbole.com/#rd)
+  - [fks_chart](http://html5ify.com/fks/fks_chart/)
   
   
 - 大数据
