@@ -14,9 +14,16 @@
 
 ---
 
+- 综合
+
   - [CSS - Contents and compatibility](http://www.quirksmode.org/css/contents.html)
   - [CSS 3D Editor](http://tridiv.com/)
   - [cross-browser-opacity](https://css-tricks.com/snippets/css/cross-browser-opacity/)
   - [Test your CSS media queries features](http://pieroxy.net/blog/pages/css-media-queries/test-features.html)
   - [重构 CSS 值](http://yanxyz.github.io/emmet-docs/actions/reflect-css-value/)
   - [学习CSS布局](http://zh.learnlayout.com/)
+  - [sass入门 - sass教程](http://www.w3cplus.com/sassguide/index.html)
+  - [Animate.css](http://daneden.github.io/animate.css/)
+  - [Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/#cl-effect-4)
+  - [加载样式](tobiasahlin.com/spinkit/)
+  - [PACE — Automatic page load progress bars](http://github.hubspot.com/pace/docs/welcome/)
