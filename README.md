@@ -149,6 +149,7 @@
 - JavaScript
 
   - [ECMAScript 6简介](http://es6.ruanyifeng.com/#docs/intro)
+  - [一个学习JavaScript很不错的资源](http://nodeschool.io/zh-cn/)
   
 - css
   
