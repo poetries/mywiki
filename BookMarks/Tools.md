@@ -1,8 +1,8 @@
 ## 工具
 
-### 配色工具，非常小清新
+### 配色
 
-- [nipponcolors](http://nipponcolors.com/)
+- [nipponcolors-配色工具，非常小清新](http://nipponcolors.com/)
 
 ### 压缩
 
