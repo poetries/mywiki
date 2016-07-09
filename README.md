@@ -44,6 +44,7 @@
   - [各种框架汇总](https://www.awesomes.cn/repos/Applications/Frameworks)
   - [伯乐在线](http://hao.jobbole.com/#rd)
   - [fks_chart](http://html5ify.com/fks/fks_chart/)
+  - [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
   
   
 - 大数据
@@ -52,7 +53,7 @@
 
 
 - 搜素
-
+  
   - [快搜--好用](http://so.chongbuluo.com/)
   - [网盘检索工具](http://www.xilinjie.com)
 
