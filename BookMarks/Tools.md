@@ -4,6 +4,23 @@
 
 - [nipponcolors-配色工具，非常小清新](http://nipponcolors.com/)
 
+### 图片优化
+
+- [智图_图片压缩在线工具_在线制作webp](http://zhitu.isux.us/)
+- [在线png优化](https://tinypng.com/)
+- [loading img](http://preloaders.net/en/circular)
+
+### 生成二维码
+
+- [生成二维码](http://cli.im/)
+
+### 浏览器同步
+
+- [puer](https://github.com/leeluolee/puer)
+- [livereload](http://livereload.com/)
+- [getf5-非常好用的实时在线调试](http://getf5.com/)
+- [File Watchers](http://geek100.com/2608.html)
+
 ### Git
 
 - [git常规命令练习-很实用](http://learngitbranching.js.org/)
