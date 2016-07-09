@@ -136,6 +136,14 @@
 - [多说 - 社会化评论系统](http://duoshuo.com/)
 - [百度统计流量研究院](http://tongji.baidu.com/data/browser/)
 
+### 富文本编辑器
+
+- [百度 ueditor](http://ueditor.baidu.com/website/)
+- [经典的ckeditor](http://ckeditor.com/)
+- [经典的kindeditor](http://kindeditor.net/demo.php)
+- [微型、开源的Bootstrap所见即所得（WYSIWYG）富文本编辑器](http://www.bootcss.com/p/bootstrap-wysiwyg/)
+
+
 ### 数据安全
 
 - [社工库查询 --查询密码是否有泄露（有数据就有危险）](http://cha.hx99.net/)
