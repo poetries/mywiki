@@ -135,6 +135,9 @@
 - [微软CDN服务](http://www.asp.net/ajax/cdn)
 - [阿里云](https://bbs.aliyun.com/read/139395.html)
 - [百度开放云平台](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
+- [jQuery CDN](http://code.jquery.com/)
+- [jQuery cdn加速](http://www.jq22.com/cdn/)
+- [新浪CDN](http://lib.sinaapp.com/)
 
 ### 社会化服务
 
