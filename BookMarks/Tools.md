@@ -26,6 +26,10 @@
 - [一个用JS写的在线正则测试工具](http://www.regexpal.com/)
 - [一个用JS写的在线正则测试工具](http://regexr.com/)
 
+### 验证api
+
+  - [验证api](http://niceue.com/validator/demo/match.php)
+  
 ### 浏览器
 
 -  浏览器hack速查
