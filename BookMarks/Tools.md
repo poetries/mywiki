@@ -1,5 +1,8 @@
 ## 工具
 
+### 配色工具，非常小清新
+
+- [nipponcolors](http://nipponcolors.com/)
 
 ### 压缩
 
@@ -9,11 +12,30 @@
 * [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
 * [ImageOptim — make websites and apps load faster (Mac app)](http://imageoptim.com/)
 
-### 代码优化
+### 代码优化--格式化
 
-- [jslint](http://www.jslint.com/)
-- [jshint](http://jshint.com/)
-- [csslint](http://csslint.net/)
+- [jslint-在线JS校验工具](http://www.jslint.com/)
+- [jshint-主要用来检查代码质量以及找出一些潜在的代码缺陷](http://jshint.com/)
+- [csslint-用来帮你找出 CSS 代码中问题的工具](http://csslint.net/)
+- [在线Javascript格式化](http://jsbeautifier.org/)
+- [http://codebeautify.org/](http://codebeautify.org/)
+- [目前最好的用的代码格式化压缩的用JS写的JS工具](https://github.com/mishoo/UglifyJS)
+
+### 正则
+
+- [一个用JS写的在线正则测试工具](http://www.regexpal.com/)
+- [一个用JS写的在线正则测试工具](http://regexr.com/)
+
+### 浏览器hack速查
+  
+  [浏览器hack速查](http://browserhacks.com/)
+  
+
+### 浏览器插件
+
+- [View Source Chart-以层级方式展示源码](https://addons.mozilla.org/en-US/firefox/addon/view-source-chart/)
+- [可以查看到http头](https://addons.mozilla.org/zh-CN/firefox/addon/live-http-headers/)
+- [Firebug](http://getfirebug.com/)
 
 ### Debug
 
