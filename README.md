@@ -109,4 +109,5 @@
  - [数据管理](https://github.com/poetries/mywiki/blob/master/%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.md)
  - [在线代码运行](https://github.com/poetries/mywiki/blob/master/%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C.md)
  - [插件库](https://github.com/poetries/mywiki/blob/master/%E6%8F%92%E4%BB%B6%E5%BA%93%2Cmd)	
+ - [Sublime常用插件总结](https://github.com/poetries/mywiki/blob/master/Sublime%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E6%80%BB%E7%BB%93.md)
 
