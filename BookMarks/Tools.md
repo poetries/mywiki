@@ -26,16 +26,18 @@
 - [一个用JS写的在线正则测试工具](http://www.regexpal.com/)
 - [一个用JS写的在线正则测试工具](http://regexr.com/)
 
-### 浏览器hack速查
-  
-  [浏览器hack速查](http://browserhacks.com/)
+### 浏览器
+
+-  浏览器hack速查
+
+  - [浏览器hack速查](http://browserhacks.com/)
   
 
-### 浏览器插件
+- 浏览器插件
 
-- [View Source Chart-以层级方式展示源码](https://addons.mozilla.org/en-US/firefox/addon/view-source-chart/)
-- [可以查看到http头](https://addons.mozilla.org/zh-CN/firefox/addon/live-http-headers/)
-- [Firebug](http://getfirebug.com/)
+  - [View Source Chart-以层级方式展示源码---好用](https://addons.mozilla.org/en-US/firefox/addon/view-source-chart/)
+  - [可以查看到http头](https://addons.mozilla.org/zh-CN/firefox/addon/live-http-headers/)
+  - [Firebug](http://getfirebug.com/)
 
 ### Debug
 
