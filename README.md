@@ -36,8 +36,13 @@
 - 前端
 
   - [最牛前端](http://f2er.club/)
+  - [前端网址导航 - WHYCSS](http://whycss.com/)
+  - [大前端](http://www.daqianduan.com/nav)
   - [前端导航网址](http://caibaojian.com/links)
   - [前端网址导航 - WHYCSS](http://whycss.com/)
+  - [前端圈 - 江湖录 - 前端导航](http://sentsin.com/daohang/)
+  - [前端开发仓库 ](http://code.ciaoca.com/)
+  - [F2E 前端导航 - 前端工程师专用的导航](http://f2e.im/static/pages/nav/index.html)
   - [菜鸟教程](http://www.runoob.com/)
   - [菜鸟导航](http://www.runoob.com/w3cnav)
   - [前端工程师专用的导航站](http://www.css88.com/nav/)
@@ -116,6 +121,8 @@
  - [速查表](https://github.com/poetries/mywiki/blob/master/BookMarks/%E9%80%9F%E6%9F%A5%E8%A1%A8.md)
  - [常用库与框架的使用文档](https://github.com/poetries/mywiki/blob/master/BookMarks/%E5%B8%B8%E7%94%A8%E5%BA%93%E4%B8%8E%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3.md)
  - [编码规范](https://github.com/poetries/mywiki/blob/master/BookMarks/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
+ - [Git--SVN-Github](https://github.com/poetries/mywiki/blob/master/BookMarks/Git--SVN-Github.md)
+ - [开发工具类](https://github.com/poetries/mywiki/blob/master/BookMarks/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BB.md)
  - [各大公司开源项目](https://github.com/poetries/mywiki/blob/master/BookMarks/%E5%90%84%E5%A4%A7%E5%85%AC%E5%8F%B8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)
  - [作品集](https://github.com/poetries/mywiki/blob/master/BookMarks/%E4%BD%9C%E5%93%81%E9%9B%86.md)
  - [程序员简历模板系列](https://github.com/hacke2/ResumeSample)
