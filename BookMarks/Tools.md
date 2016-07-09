@@ -7,6 +7,7 @@
 ### Git
 
 - [git常规命令练习-很实用](http://learngitbranching.js.org/)
+- [explain-git-with-d3](http://onlywei.github.io/explain-git-with-d3)
 
 ### 压缩
 
