@@ -7,9 +7,11 @@
   - [火狐提供的Web技术文档，查询的好帮手](https://developer.mozilla.org/zh-CN/docs/Web)
   - [在线桌面版本API,在线chm文档,中文在线API,在线API,在线帮助文档](http://www.sxt.cn/searchsxt/sxtapipro/index.html)
   - [在线工具箱](http://tool.oschina.net/)
+  - [各种流行库搜索](http://microjs.com/#)
  
 - JavaScript
 
+  - [综合搜索-JavaScript](http://www.javascripting.com/search?q=jquery)
   - [ECMAScript 6简介](http://es6.ruanyifeng.com/#docs/intro)
   - [一个学习JavaScript很不错的资源](http://nodeschool.io/zh-cn/)
   - [ JavaScript规范](https://github.com/adamlu/javascript-style-guide)
@@ -20,12 +22,20 @@
   - [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
   - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
   
+- jQuery
+
+  - [hemin 在线版](http://hemin.cn/jq/)
+  - [jQuery API中文文档](http://www.css88.com/jqapi-1.9/on/)
+  - [jQuery UI API中文文档](http://www.css88.com/jquery-ui-api/)
+  
+
 - css
   
   - [CSS中文参考手册](http://css.doyoe.com/)
   - [学习CSS布局](http://zh.learnlayout.com/toc.html)
   - [W3Help - 兼容性 - 知识库](http://w3help.org/zh-cn/kb/)
   - [CSS3 UI 库](http://css3lib.alloyteam.com/)
+
 
 - bootstrap
   
@@ -41,6 +51,8 @@
   
     - [Sass官网，讲述Sass/SCSS应用的基础知识](http://sass-lang.com/guide)
     - [Sass中文网](http://www.sasschina.com/)
+    - [sass中国_SCSS教程](http://www.sass.hk/)
+    - [Sass 中文文档](http://sass.bootcss.com/)
     - [这是由Sass专家Hugo Giraudel撰写的一份“编写稳健、可维护和可扩展的Sass”的指南](https://sass-guidelin.es/zh/)
     - [在线Sass/SCSS调试器](http://www.sassmeister.com/)
   
