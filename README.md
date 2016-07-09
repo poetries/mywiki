@@ -99,7 +99,7 @@
  - [UED](https://github.com/poetries/mywiki/blob/master/UED.md)
  - [UI](https://github.com/poetries/mywiki/blob/master/UI.md)
  - [VPN](https://github.com/poetries/mywiki/blob/master/VPN.md)
- - [IP-Info](https://github.com/poetries/mywiki/blob/master/IP-Info)
+ - [IP-Info](https://github.com/poetries/mywiki/blob/master/IP-Info.md)
  - [设计-ICON资源](https://github.com/poetries/mywiki/blob/master/%E8%AE%BE%E8%AE%A1.md)
  - [前端工程构建](https://github.com/poetries/mywiki/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E6%9E%84%E5%BB%BA.md)
  - [实用参考手册](https://github.com/poetries/mywiki/blob/master/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C.md)
