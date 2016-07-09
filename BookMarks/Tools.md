@@ -99,6 +99,8 @@
 - [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
 - [开放静态文件 CDN ](http://staticfile.org/)
 - [微软CDN服务](http://www.asp.net/ajax/cdn)
+- [阿里云](https://bbs.aliyun.com/read/139395.html)
+- [百度开放云平台](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
 
 ### 社会化服务
 
