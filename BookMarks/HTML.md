@@ -18,6 +18,9 @@
 * [ Markdown Syntax Documentation](http://daringfireball.net/projects/markdown/syntax#blockquote)
 * [Transactional HTML Email Templates](http://blog.mailgun.com/transactional-html-email-templates/)
 
+## HTML5
+
+- [HTML5 元素标签含义大全(元素周期表)](http://www.html5star.com/manual/html5label-meaning/)
 
 #### EDM 模板
 
