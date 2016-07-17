@@ -15,6 +15,10 @@
   - [Format CSS Online](http://www.lonniebest.com/FormatCSS/)
   - [W3C CSS 验证服务](http://jigsaw.w3.org/css-validator/)
   - [浏览器csshack查询](http://browserhacks.com/)
+  - [CSS Animatie是一款在线制作CSS3动画的工具，可以在线直接制作CSS3动画效果，生成代码](http://cssanimate.com/)
+  - [一款在线集成众多CSS3功能的生成器，可以在线生成常用的CSS3效果](http://filterfactory.mobi/)
+  - [一款在线使用纯CSS3实现长阴影的效果，一款强大的扁平化长投影制造器](http://sandbox.juan-i.com/longshadows/)
+  - [一个在线随机取色工具，可以随机获取十六进制、RGB、HSl等颜色](http://colourco.de/)
 
 ---
 
@@ -32,3 +36,93 @@
   - [Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/#cl-effect-4)
   - [加载样式](tobiasahlin.com/spinkit/)
   - [PACE — Automatic page load progress bars](http://github.hubspot.com/pace/docs/welcome/)
+
+---
+
+- CSS3属性值的查询
+  
+
+这一块主要为大家搜集了几个查找css3相关属性介绍的工具，这些工具能让你了解CSS3的相关属性以及其简单的使用方法，还有就是浏览器的兼容性等
+
+
+    - [用来帮助大家查找CSS的相关属性的语法，以及使用方法](http://cssvalues.com/)
+    
+    ![](http://cdn2.w3cplus.com/cdn/farfuture/7el6vBkWG0-2wFrLuEPizis5MmgZ03zd0PKnYm5R62I/mtime:1421035527/sites/default/files/styles/print_image/public/source/css3tools/csstools-1.jpg)
+    
+    - [提供了目前较为实用的一些CSS3属性的介绍，以及示范代码](http://css3please.com/)
+    
+    ![](http://cdn.w3cplus.com/cdn/farfuture/iFdY3jnbWhvGRkvHSZokpcAJRvrkCFfnQjpYxkPvl_k/mtime:1421035527/sites/default/files/styles/print_image/public/source/css3tools/csstools-2.jpg)
+    
+    - [提供了W3c草案中的属性介绍](http://css3clickchart.com/)
+    
+       ![](http://cdn1.w3cplus.com/cdn/farfuture/0xoqn3DG05BwjnpseCPOhn-tMlKtRA8wTJ7otF8FyCA/mtime:1421035527/sites/default/files/styles/print_image/public/source/css3tools/csstools-3.jpg)
+       
+    - [提供CSS相关属性查询、以及对应属性值的简单介绍](http://www.css666.com/)
+    
+       ![](http://cdn1.w3cplus.com/cdn/farfuture/lkXiJpOqhqSZWS8gpwWwqivZTTiwdDr6gBiQ86H7Qv4/mtime:1421035527/sites/default/files/styles/print_image/public/source/css3tools/csstools-4.jpg)
+       
+    - [提供了CSS相关属性的浏览器兼容表，同时提供了对应属性资源](http://caniuse.com/)
+    
+       ![](http://cdn2.w3cplus.com/cdn/farfuture/Es_vKzQjsnl7QatltvNclPYgtvEcoNHHqC3Vjdi5DkA/mtime:1421035528/sites/default/files/styles/print_image/public/source/css3tools/csstools-5.jpg)
+       
+    - [提供了各种前端工具](http://html5css3box.com/)
+    
+       ![](http://cdn2.w3cplus.com/cdn/farfuture/PxOUqzVt3Tvp1uztKP1UfC-Y-VhK43Wc0sDtHatUXJg/mtime:1421035540/sites/default/files/styles/print_image/public/source/css3tools/csstools-49.jpg)
+   
+       
+- CSS3效果生成工具     
+  
+
+第二部分介绍的工具都是些集成了CSS3多个属性的生成工具，我们可以通过这些工具直接生成一些CSS3效果，比如说渐变、盒子阴影、文本阴影、圆角等等`
+
+
+    - [Westciv Tools主要为CSS3提供了渐变gradients、盒子阴影box-shadow、变形transform和文字描边四种在线生成效果的工具](http://westciv.com/tools/)
+    
+    ![](http://cdn1.w3cplus.com/cdn/farfuture/McDxYYuEcBPbp7NS7RH6_U93LYxsTi2YOaR86-dcy_I/mtime:1421035528/sites/default/files/styles/print_image/public/source/css3tools/csstools-6.jpg)
+    
+    - [CSS3 Generator提供了13个CSS3较为常用的属性代码生成工具](http://css3generator.com/)
+    
+    ![](http://cdn.w3cplus.com/cdn/farfuture/Mf9U4hHJEdzPE8tTVc4A_r8F9wsf9AvGQkVVMOzbqiM/mtime:1421035528/sites/default/files/styles/print_image/public/source/css3tools/csstools-7.jpg)
+    
+    - [CSS3 Maker](http://www.css3maker.com/)
+    
+    CSS3 Maker提供了10个最为常用的CSS3属性在线生成工具，比如说border-radius、gradient、transfrom、animation、transition、rgba、text-shadow、box-shadow、text rotation和@font-face。同样的你可以在线设置相关属性参数，了解浏览器对其的支持性，最方便的可以直接下载生成的代码
+    
+    ![](http://cdn2.w3cplus.com/cdn/farfuture/QUFSLHoPV5QfzYsbNlBbf0Uy1FV0YsoPcsAYLdOh5b0/mtime:1421035529/sites/default/files/styles/print_image/public/source/css3tools/csstools-8.jpg)
+    
+    - [LayerStyle](http://layerstyles.org/)
+    
+    LayerStyle这款工具虽然服务的属性不多，只有box-shadow。渐变色，圆角几个，但他是的工作原理非常的接近于photoshop的面板工具，我想会有很多人喜欢，因为他对大家来说很熟悉，一点都不陌生
+    
+    ![](http://cdn1.w3cplus.com/cdn/farfuture/lg9stjHGh7l58xd5kL3mkgDQW94wxIQwsSdF6aqJS0Y/mtime:1421035529/sites/default/files/styles/print_image/public/source/css3tools/csstools-9.jpg)
+    
+    - [CSS3 GENERATOR](http://www.css3.me/)
+    
+    CSS3 GENERATOR可以同时为一个元素完成border-radius、box-shadow、gradient和opacity多项属性的设置
+    
+    ![](http://cdn.w3cplus.com/cdn/farfuture/F_ACVcfPn8ssSlZT7l99FURaMW6UU0snHDJk6rrYDyg/mtime:1421035529/sites/default/files/styles/print_image/public/source/css3tools/csstools-10.jpg)
+    
+    - [Live Tools](http://livetools.uiparade.com/index.html)
+    
+    Live Tools是一个UI制作工具，他提供了按钮、表单、icon图标和Ribbons的制作工具，可以在线配置相关参数，生成你需要的效果代码
+    
+    ![](http://cdn.w3cplus.com/cdn/farfuture/vCrfGfXhrymYdWhpz-4ysUSqMjOayU6CTUMru9s6dmY/mtime:1421035529/sites/default/files/styles/print_image/public/source/css3tools/csstools-11.jpg)
+    
+    - [Mikeplate](http://css3.mikeplate.com/)
+    
+    Mikeplat可以同时为一个元素设置多个CSS3的属性样多，比如说圆角、阴影、旋转等。
+    
+    ![](http://cdn2.w3cplus.com/cdn/farfuture/TxidT01n5ZVidgIXULCO9QoEkg9cJGMtUVP5L1VL4e8/mtime:1421035530/sites/default/files/styles/print_image/public/source/css3tools/csstools-12.jpg)
+    
+    - [CSS3 Generator](http://css3.pascal-seven.de/)
+    
+    CSS3 Generator(Pascal seven)和前面的CSS3 Generator工具不太一样，这个工个是十个CSS3属性为同一个元素服务，当然你可以选择性的使用你需要的属性
+    
+    ![](http://cdn.w3cplus.com/cdn/farfuture/DdfX1peLvfghVqfWk8RPPKzjxFcvdBTaIKCd9_KBlC8/mtime:1421035530/sites/default/files/styles/print_image/public/source/css3tools/csstools-13.jpg)
+    
+    - [CSS3 Ps](http://css3ps.com/)
+    
+    CSS3 Ps是photoshop cs6的一款插件，如果你是仅是一位设计师，不懂任何coding的活，但想使用CSS3属性来实现你的部分设计效果，那么你就可以使用CSS Ps来帮助，一键搞定
+    
+    ![](http://cdn.w3cplus.com/cdn/farfuture/dk--tXqT8gDK_235G4tuFGIhzJUOxAU7GlulgJR2in4/mtime:1421035530/sites/default/files/styles/print_image/public/source/css3tools/csstools-14.jpg)
+    
