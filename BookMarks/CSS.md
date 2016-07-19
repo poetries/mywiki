@@ -22,6 +22,7 @@
 
 ---
 
+
 - 综合
 
   - [css术语](http://apps.workflower.fi/vocabs/css/zh_CN#vendor-prefix)
@@ -36,6 +37,68 @@
   - [Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/#cl-effect-4)
   - [加载样式](tobiasahlin.com/spinkit/)
   - [PACE — Automatic page load progress bars](http://github.hubspot.com/pace/docs/welcome/)
+
+---
+
+### 十款精心挑选的在线 CSS3 代码生成工具
+
+  - [CSS3 Maker](http://www.css3maker.com/)
+  这款工具非常强大，可在线演示渐变、阴影、旋转、动画等非常多的效果，并生成对应效果的代码。
+  
+  ![](http://img.mukewang.com/568c78ad000150eb05000250.jpg)
+
+  - [Border Radius](http://border-radius.com/)
+  一款简单实用的在线 CSS3 圆角效果生成工具，四个角输入值就能生成对应的效果和代码
+
+  ![](http://img.mukewang.com/568c78b70001c00e05000250.jpg)
+
+  - [CSS3 Generator](http://css3generator.com/)
+  非常不错的各种 CSS3 代码生成器，支持圆角、渐变、旋转和阴影等众多特性，带预览效果。
+
+  ![](http://img.mukewang.com/568c78be0001aaa205000250.jpg)
+
+
+  - [CSS3 Please](http://css3please.com/)
+  非常非常帅的一款 CSS3 工具，可即时在线修改代码并预览效果，还有详细的浏览器兼容情况
+
+  ![](http://img.mukewang.com/568c78c50001a8f505400367.jpg)
+
+  - [CSS3 Generator(http://www.css3.me/)
+  可定制性非常高的一款 CSS3 代码生成工具，有边框圆角、阴影、背景渐变和透明效果
+
+  ![](http://img.mukewang.com/568c78d00001cb5b05000250.jpg)
+
+
+  - [Layer Styles](http://layerstyles.org/)
+  以非常直观的方式生成各种丰富CSS3效果，这个界面是否让你想起了 Photoshop 呢？
+
+  ![](http://img.mukewang.com/568c78da0001022a05000250.jpg)
+
+
+  - [CSSWarp](http://csswarp.eleqtriq.com/)
+  在线生成文本旋转效果的代码，应用了 CSS3 旋转特性，功能强大。
+
+  ![](http://img.mukewang.com/568c78e10001dc4305000250.jpg)
+
+
+  - [CSS3 drop shadow](http://www.wordpressthemeshock.com/css-drop-shadow/)
+  这款工具用于生成类似我博客图片的阴影效果的 CSS3 代码，可以调整各个参数。
+
+  ![](http://img.mukewang.com/568c78eb0001f5f605000318.jpg)
+
+
+  - [Gradient Editor](http://www.colorzilla.com/gradient-editor/)
+  来自 ColorZilla 的非常强大的 CSS 渐变编辑工具，类似 Photoshop 中的渐变功能。
+
+  ![](http://img.mukewang.com/568c78fc000169cc05000250.jpg)
+
+
+  - [CSS3 Tool](http://westciv.com/tools/gradients/)
+  压轴的这款工具是我最喜欢的，能够非常方便的生成背景渐变、阴影、旋转和边框圆角效果
+
+  ![](http://img.mukewang.com/568c790800013ecb05000250.jpg)
+
+
 
 ---
 
