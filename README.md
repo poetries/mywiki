@@ -36,8 +36,7 @@
 
 - 前端
 
-  - [一个很酷炫的前端网站搜集器](http://jsdig.com/)
-  
+  - [一个很酷炫的前端网站搜集器--推荐](http://jsdig.com/)
   - [最牛前端](http://f2er.club/)
   - [前端网址导航 - WHYCSS](http://whycss.com/)
   - [大前端](http://www.daqianduan.com/nav)
