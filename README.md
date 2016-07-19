@@ -18,15 +18,16 @@
   - [番茄时间管理法](http://alloyteam.github.io/AlloyTimer/)
   - [奇妙清单](https://www.wunderlist.com/zh/)
   - [XMind](http://www.xmindchina.net/)
+  - [Teambition-最好用的团队协作平台--项目管理](https://www.teambition.com)
   - [优质的mardown在线写作平台](http://markdown.xiaoshujiang.com/)
 
 ---
 
 ### 参考类
 
-- [秀米 XIUMI | 秀米 XIUMI](http://xiumi.us/) 微信宣传轻应用制作
-- [易企秀|免费移动场景应用自营销管家](http://eqxiu.com/#/home) 微信宣传轻应用制作
-- [云来·中国最大的移动APP云服务提供商](http://www.liveapp.cn/) 微信宣传轻应用制作
+- [秀米 XIUMI | 秀米 XIUMI](http://xiumi.us/) 
+- [易企秀|免费移动场景应用自营销管家](http://eqxiu.com/#/home)
+- [云来·中国最大的移动APP云服务提供商](http://www.liveapp.cn/)
 
 ---
 
