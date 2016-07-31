@@ -46,6 +46,7 @@
   - [前端网址导航 - WHYCSS](http://whycss.com/)
   - [前端圈 - 江湖录 - 前端导航](http://sentsin.com/daohang/)
   - [前端开发仓库 ](http://code.ciaoca.com/)
+  - [前端收藏夹](http://collect.w3ctrain.com/)
   - [F2E 前端导航 - 前端工程师专用的导航](http://f2e.im/static/pages/nav/index.html)
   - [菜鸟教程](http://www.runoob.com/)
   - [菜鸟导航](http://www.runoob.com/w3cnav)
