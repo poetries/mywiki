@@ -54,7 +54,6 @@
   - [各种框架汇总](https://www.awesomes.cn/repos/Applications/Frameworks)
   - [伯乐在线](http://hao.jobbole.com/#rd)
   - [fks_chart](http://html5ify.com/fks/fks_chart/)
-  - [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
   - [前端工具汇集](http://www.w3cplus.com/source/front-end-developer-excellent-tool.html)
   
   
@@ -137,5 +136,5 @@
 
 ---
 
-#### 持续更新，最后一次更新于 2016-7-17....
+#### 持续更新，最后一次更新于 2016-8-01....
 
