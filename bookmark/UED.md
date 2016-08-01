@@ -1,0 +1,18 @@
+## UED
+
+* [腾讯MXD移动互联网设计中心](http://mxd.tencent.com)
+* [携程UED-携程旅行前端开发团队](http://ued.ctrip.com/blog/)
+* [Tencent AlloyTeam](http://www.alloyteam.com/)
+* [ISUX 腾讯社交用户体验设计](http://isux.tencent.com)
+* [腾讯MXD移动互联网设计中心](http://mxd.tencent.com)
+* [腾讯CDC](http://cdc.tencent.com)
+* [一淘-UX-用户体验中心](http://ux.etao.com)
+* [QQ游戏设计中心](http://gdc.qq.com)
+* [TGideas-腾讯游戏官方设计团队](http://tgideas.qq.com)
+* [TaoBaoUED | 做地球上最好的 UED](http://ued.taobao.com/blog/)
+* [搜狐焦点UED](http://ued.focus.cn/wordpress/)
+* [MWEB - 做最好的无线web研发团队！](http://mweb.baidu.com/)
+* [TGideas-腾讯游戏官方设计团队](http://tgideas.qq.com/)
+* [腾讯ISUX – 社交用户体验设计部 – 设计你的体验](http://isux.tencent.com/)
+* [Spirit - 腾讯移动Web整体解决方案 | AlloyTeam](http://alloyteam.github.io/Spirit/)
+* [EFE Tech - 百度EFE（Excellent FrontEnd）技术体系](http://efe.baidu.com/)
