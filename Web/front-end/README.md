@@ -1,7 +1,5 @@
 <h1 align="center">WEB 前端开发学习笔记</h1>
-<p align="center">
-<a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
-</p>
+
 
 **用简单明了的方式记录WEB前端知识。**
 
