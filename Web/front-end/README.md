@@ -17,7 +17,7 @@
 * [更多](detail/README.md)
 
 ### 资源
-* [学习资源](bookmark/learn-resource.md)
+* [学习资源](bookmark/learn-resouce.md)
 * [网站收藏](bookmark/README.md)
 
 ### 实例
