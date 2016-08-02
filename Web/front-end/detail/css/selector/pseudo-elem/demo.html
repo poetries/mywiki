@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪元素使用demo</title>
+	<style>
+	body{
+		margin: 0;
+	}
+	.add-pseudo{
+		background-color: #ddd;
+		width: 100px;
+		height: 100px;
+		margin: 10px;
+	}
+	.add-pseudo:before,
+	.add-pseudo:after{
+		color: #f00;
+	}
+	.add-pseudo:before{
+		content: 'before content';
+	}
+	.add-pseudo:after{
+		content: 'after content';
+	}
+
+	.value-invalid:before{
+		content: ade;/*必须用单或多引号引起来*/
+	}
+	.invalid:before{
+		content: '(a'attr(title)')';
+	}
+	.first-letter:first-letter{
+		color: #f60;
+	}
+	.first-line:first-line{
+		color: #00f;
+	}
+
+	.html-entity:before{
+		content: '\d7'; /*utf-16 编码 0x00D7*/
+	}
+	</style>
+</head>
+<body>
+	<!-- http://www.jianshu.com/p/378f474c1ad0 CSS伪元素的一些坑 -->
+	<!-- http://www.jianshu.com/p/a52ed387e540 CSS伪元素介绍 -->
+	<p class="add-pseudo">sth</p>
+	<a class="add-pseudo">link</a>
+	<img src="" alt="" class="add-pseudo">
+	<input type="text" class="add-pseudo"><!-- 不支持，呵呵 -->
+	<textarea name="" id="" cols="30" rows="10"></textarea><!-- 不支持，呵呵 -->
+	<input type="radio" class="add-pseudo">
+	<input type="checkbox" class="add-pseudo">
+	<input type="file" class="add-pseudo">
+	<select class="add-pseudo"><!-- 不支持，呵呵 -->
+		<option value="">选择1</option>
+		<option value="">选择2</option>
+	</select>
+
+	<p class="value-invalid first-letter ">第一行第一行第一行第一行第一行</p>
+	<p class="invalid first-letter " title="just title">第一行第一行第一行第一行第一行</p>
+	<p class="invalid first-line" title="just title">第一行<br>第二行</p>
+
+	<a class="first-letter " title="just title">第一行第一行第一行第一行第一行</a>
+	<a class="first-line" title="just title">第一行<br>第二行</a>
+
+	<div class="html-entity">
+		伪类中用html实体要使用该实体的'\' 加上utf-16的编码
+	</div>
+
+</body>
+</html>

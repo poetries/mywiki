@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <!-- 如果使用underscroe 可以使用throttle方法 http://underscorejs.org/#throttle -->
+    <input type="text" id="input">
+    <script src="../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        function throttle(fn, time) {
+            time = time || 200;
+            var runId = null;
+            return function() {
+                var args = arguments;
+                clearTimeout(runId); // 把之前没执行的给去掉
+                runId = setTimeout(function() {
+                    fn.apply(fn, args);
+                }, time);
+            }
+        }
+
+        var search = function  (val) {
+        	$.ajax({
+        		url: 'error'// 404的地址，为了让代码进fail方法
+        	}).fail(function () {
+        		console.log(val);
+        	});
+        };
+
+        search = throttle(search, 500);
+
+        $('#input').keyup(function () {
+        	search($(this).val());
+        });
+    });
+    </script>
+</body>
+
+</html>

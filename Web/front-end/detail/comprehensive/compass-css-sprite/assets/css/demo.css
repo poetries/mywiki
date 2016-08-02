@@ -1,0 +1,89 @@
+@charset "UTF-8";
+h2 {
+  font-size: 14px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-color: #ddd;
+}
+.icon--facebook {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 48px;
+  height: 48px;
+  background-position: 0 -76px;
+}
+.icon--facebook-rem {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 0.75rem;
+  height: 0.75rem;
+  /*
+  * 完美解决移动端使用 rem 单位时 CSS Sprites 错位问题
+  * (https://github.com/banricho/webLog/issues/1
+  */
+  background-position: 0 39.58333%;
+  background-size: 1.125rem 3.75rem;
+}
+.icon--flickr {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 48px;
+  height: 48px;
+  background-position: 0 -134px;
+}
+.icon--flickr-rem {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 0.75rem;
+  height: 0.75rem;
+  /*
+  * 完美解决移动端使用 rem 单位时 CSS Sprites 错位问题
+  * (https://github.com/banricho/webLog/issues/1
+  */
+  background-position: 0 69.79167%;
+  background-size: 1.125rem 3.75rem;
+}
+.icon--twitter {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 48px;
+  height: 48px;
+  background-position: 0 -192px;
+}
+.icon--twitter-rem {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 0.75rem;
+  height: 0.75rem;
+  /*
+  * 完美解决移动端使用 rem 单位时 CSS Sprites 错位问题
+  * (https://github.com/banricho/webLog/issues/1
+  */
+  background-position: 0 100%;
+  background-size: 1.125rem 3.75rem;
+}
+.icon--cookie {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 72px;
+  height: 72px;
+  background-position: 0 0;
+}
+.icon--cookie-rem {
+  background-repeat: no-repeat;
+  background-image: url('../images/icons-s4f5ccccc5d.png');
+  width: 1.125rem;
+  height: 1.03125rem;
+  /*
+  * 完美解决移动端使用 rem 单位时 CSS Sprites 错位问题
+  * (https://github.com/banricho/webLog/issues/1
+  */
+  background-position: 0 0;
+  background-size: 1.125rem 3.75rem;
+}
+
+/*# sourceMappingURL=demo.css.map */

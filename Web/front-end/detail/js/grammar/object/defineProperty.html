@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <script>
+    (function  () {
+    	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+	    var obj = {};
+	    var val;
+	    Object.defineProperty(obj, 'a', {
+	        get: function() {
+	            console.log('get a: ' + val);
+	            return val;
+	        },
+	        set: function(newVal) {
+	            console.log('a was setted: ' + newVal);
+	            val = newVal;
+	        }
+	    });
+	    obj.a = 3;
+	    obj.a;
+    })();
+    </script>
+</body>
+
+</html>

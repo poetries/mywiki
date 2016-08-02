@@ -1,0 +1,199 @@
+html, body {
+    font-family: tahoma,arial,"宋体", SimSun;
+    font-size: 12px;
+    color: #333;
+    background: #f5f5f5;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+h1, .h1 {
+    font-size: 36px;
+}
+h2, .h2 {
+    font-size: 30px;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+h5, .h5 {
+    font-size: 14px;
+}
+h6, .h6 {
+    font-size: 12px;
+}
+a{
+	color: #333;
+}
+a:hover{
+	color: #ea5413;
+}
+p{
+	margin-bottom: 20px;
+}
+/*tools start*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.ml-5{
+	margin-left: 5px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+.mr-5{
+	margin-right: 5px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.mt-5{
+	margin-top: 5px;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.mb-5{
+	margin-bottom: 5px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.pl-5{
+	padding-left: 5px;
+}
+.pl-10{
+	padding-left: 10px;
+}
+.pr-5{
+	padding-right: 5px;
+}
+.pr-10{
+	padding-right: 10px;
+}
+.pt-5{
+	padding-top: 5px;
+}
+.pt-10{
+	padding-top: 10px;
+}
+.pb-5{
+	padding-bottom: 5px;
+}
+.pb-10{
+	padding-bottom: 10px;
+}
+.tc{
+	text-align: center;
+}
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.none {
+	display: none !important;
+}
+.show {
+	display: block !important;
+}
+.inline-show {
+	display: inline !important;
+}
+/*"STXihei" 是微软雅黑在Mac平台上的对应字体*/
+.ff-yahei{
+	font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+/* 普通黑体 */
+.ff-hei{
+    font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+.ff-song{
+	font-family: tahoma,arial,"宋体", SimSun;
+}
+.fc-333{
+	color: #333;
+}
+.fc-666{
+	color: #666;
+}
+.fc-999{
+	color: #999;
+}
+.fs-20{
+	font-size: 20px;
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs-14{
+	font-size: 14px;
+}
+.fs-12{
+	font-size: 12px;
+}
+.fs-10{
+	font-size: 10px;/* todo webkit scale */
+}
+.fc-light-gray{
+	color: #999;
+}
+.fc-orange{
+	color: #ea5413;
+}
+.fc-green{
+	color: #89b923;
+}
+.fc-blue{
+	color: #007cd4;
+}
+.fc-purple{
+	color: #c173de;
+}
+.w-100{
+	width: 100px;
+}
+.w-110{
+	width: 110px;
+}
+.w-120{
+	width: 120px;
+}
+.no-select {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+/*tools end*/
+

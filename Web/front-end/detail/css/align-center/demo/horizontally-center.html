@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中</title>
+    <link rel="stylesheet" href="../../../../asset/vendor/base.css">
+
+</head>
+
+<body>
+	<!-- 详细的解释见 http://www.w3cplus.com/css/elements-horizontally-center-with-css.html -->
+    <h2>行内元素</h2>
+    <div id="inline">
+        一念靜心 花開遍世界 每临绝境 峰回路又转
+    </div>
+    <style>
+    #inline {
+        text-align: center;
+    }
+    </style>
+    <h2>定宽块级元素</h2>
+    <div id="sure-width"></div>
+    <style>
+    #sure-width {
+        height: 100px;
+        width: 100px;
+        background-color: #f00;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+    <h2>不定宽块级元素 </h2>
+    <h3>方法1: inline－block</h3>
+    <ul id="no-sure-width-1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <style>
+    #no-sure-width-1 {
+        list-style: none;
+        font-size: 0;
+        /*
+		在较老的safari浏览器需要做这个处理。
+		letter-spacing: -4px;根据不同字体字号或许需要做一定的调整 
+  word-spacing: -4px;*/
+        
+        text-align: center;
+    }
+    
+    #no-sure-width-1>li {
+        display: inline-block;
+        font-size: 12px;
+        background-color: #ddd;
+        color: #fff;
+        width: 20px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    </style>
+    <h3>方法2: 浮动＋定位</h3>
+    <ul id="no-sure-width-2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <style>
+    #no-sure-width-2 {
+        list-style: none;
+        position: absolute;
+        left: 50%;
+        /* 用下面的两个样式 和使用 position: absolute;是等效的。本质上都是让元素的宽度变为所包含元素的宽度 */
+        /*float:left;
+        position: relative;*/
+
+    }
+    
+    #no-sure-width-2>li {
+        float: left;
+        position: relative;
+        left: -50%;
+        /*right: 50%;*/ /*left -50%和right 50% 是等价的*/
+        /*将每个分页项向左移动父元素宽度的50%*/
+        background-color: #ddd;
+        color: #fff;
+        width: 20px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+
+    </style>
+</body>
+
+</html>

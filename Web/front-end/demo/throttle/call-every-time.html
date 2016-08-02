@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>每次都要执行</title>
+</head>
+
+<body>
+    <script src="../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        function queueCall(fn, time) {
+            time = time || 200;
+        	var argsArr = []; // 执行方法的队列
+            setInterval(function  () {
+            	if(argsArr.length === 0){
+            		return;
+            	}
+            	var args = argsArr.shift();
+            	fn.apply(fn, args);
+            }, time);
+            return function () {
+            	argsArr.push(arguments);
+            };
+        };
+
+        var signIn = function  (name) {
+        	console.log('sign in. name: ' + name);
+        };
+
+        signIn = queueCall(signIn, 1000);
+
+        ['joel', 'jack', 'tom', 'jerry', 'jim'].forEach(function (name) {
+        	signIn(name);
+        });
+    });
+    </script>
+</body>
+
+</html>

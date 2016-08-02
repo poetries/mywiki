@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+}
+table>caption{
+	line-height: 30px;
+	font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid blue;
+    padding: 0 10px;
+	line-height: 24px;
+}
+
+tr:nth-child(even) td{
+	background-color: #ddd;
+}
+

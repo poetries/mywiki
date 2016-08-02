@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Picture元素做响应式图片</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" name="viewport">
+    <style>
+    .container{
+    	text-align: center;
+    }
+    picture>img{
+    	width: 80%;
+    }
+    </style>
+    <!--[if lt IE 9]><video style="display: none;">
+    <script>
+		// Picture element HTML shim|v it for old IE (pairs with Picturefill.js)
+		document.createElement( "picture" );
+	</script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="container">
+	    <picture>
+	    	<!--[if IE 9]><video style="display: none;"><![endif]-->
+	        <source srcset="image/extralarge.jpg" media="(min-width: 1200px)">
+	        <source srcset="image/large.jpg"  media="(min-width: 960px)">
+	        <source srcset="image/small.jpg" media="(max-width: 768px)">
+	        <!-- 不同分辨率<source srcset="image/small.jpg, image/medium.jpg 2x, image/large.jpg 3x"  media="(max-width: 768px)"> -->
+	        <!--[if IE 9]></video><![endif]-->
+	        <img srcset="image/medium.jpg" alt="My default image">
+	    </picture>
+	</div>
+	<script src="picturefill.js"></script>
+</body>
+
+</html>

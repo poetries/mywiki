@@ -1,0 +1,38 @@
+@import "sprite";
+h2{
+    font-size: 14px;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: #ddd;
+    $sprites: creatSprite('icons/*.png');// 将icons下所有png图片生成图片精灵。$glob 不支持 +(png|gif|jpg|jpeg) ...
+    &--facebook {
+        @include icon('facebook', $sprites);
+    }
+    &--facebook-rem{
+        @include icon('facebook', $sprites, true);
+    }
+    &--flickr {
+        @include icon('flickr', $sprites);
+    }
+    &--flickr-rem{
+        @include icon('flickr', $sprites, true);
+    }
+    &--twitter {
+        @include icon('twitter', $sprites);
+    }
+    &--twitter-rem{
+        @include icon('twitter', $sprites, true);
+    }
+    &--cookie {
+        @include icon('cookie', $sprites);
+    }
+    &--cookie-rem{
+        @include icon('cookie', $sprites, true);
+    }
+
+
+}
+

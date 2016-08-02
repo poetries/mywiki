@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>事件</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="inner">内部元素</div>
+	</div>
+	<script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+	<script>
+	$(document).ready(function () {
+			// 元素在未添加到页面前，绑定的事件也会生效
+		(function(){
+			var $body = $('body');
+			var $a = $('<a>').attr('href', 'javascript:void(0);').text('点我');
+			$a.click(function(){
+				console.log('clicked a');
+			});
+			$body.append($a);
+		})();
+
+		// 防止事件冒泡
+		(function(){
+			$('.wrap').click(function(){
+				console.log('outer clicked');
+			});
+			$('.inner').click(function(evt){
+				evt.stopPropagation();//防止事件冒泡
+				console.log('inner clicked');
+			});
+		})();
+
+
+	});
+	</script>
+</body>
+</html>

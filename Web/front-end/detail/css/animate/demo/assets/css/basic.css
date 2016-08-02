@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  background-color: #f00;
+}
+
+.bounce {
+  -moz-animation: bounce 5s infinite;
+  -webkit-animation: bounce 5s infinite;
+  animation: bounce 5s infinite;
+}
+
+@-moz-keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-80px);
+  }
+  90% {
+    transform: translateX(100px);
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-80px);
+  }
+  90% {
+    transform: translateX(100px);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-80px);
+  }
+  90% {
+    transform: translateX(100px);
+  }
+}
+.sub-anim-prop {
+  -moz-animation-name: bounce;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -moz-animation-fill-mode: none;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+}
+
+.animation-direction-normal {
+  -moz-animation: LToR 1s 5 normal;
+  -webkit-animation: LToR 1s 5 normal;
+  animation: LToR 1s 5 normal;
+}
+
+.animation-direction-alternate {
+  -moz-animation: LToR 1s 5 alternate;
+  -webkit-animation: LToR 1s 5 alternate;
+  animation: LToR 1s 5 alternate;
+}
+
+.animation-direction-reverse {
+  -moz-animation: LToR 1s 5 reverse;
+  -webkit-animation: LToR 1s 5 reverse;
+  animation: LToR 1s 5 reverse;
+}
+
+.animation-direction-alternate-reverse {
+  -moz-animation: LToR 1s 5 alternate-reverse;
+  -webkit-animation: LToR 1s 5 alternate-reverse;
+  animation: LToR 1s 5 alternate-reverse;
+}
+
+.animation-fill-mode-none {
+  -moz-animation: LToR 1s 5;
+  -webkit-animation: LToR 1s 5;
+  animation: LToR 1s 5;
+}
+
+.animation-fill-mode-forwards {
+  -moz-animation: LToR 1s 5 forwards;
+  -webkit-animation: LToR 1s 5 forwards;
+  animation: LToR 1s 5 forwards;
+}
+
+.animation-fill-mode-backwards {
+  -moz-animation: LToR 1s 5 backwards;
+  -webkit-animation: LToR 1s 5 backwards;
+  animation: LToR 1s 5 backwards;
+}
+
+.animation-fill-mode-both {
+  -moz-animation: LToR 1s 5 both;
+  -webkit-animation: LToR 1s 5 both;
+  animation: LToR 1s 5 both;
+}
+
+@-moz-keyframes LToR {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+@-webkit-keyframes LToR {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+@keyframes LToR {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}

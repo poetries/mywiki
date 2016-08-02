@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>payload</title>
+</head>
+
+<body>
+    <img src="x" onerror="&#99;&#111;&#110;&#115;&#111;&#108;&#101;&#46;&#108;&#111;&#103;&#40;&#34;&#120;&#115;&#115;&#34;&#41;" id="payload-1" />
+    <a href="j&NewLine;avascript&colon;alert('qq')">XSS</a>
+    <script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(function() {
+        // 将onerror的值为成html实体,一样也能执行
+        var payload1 = 'console.log("xss")'.replace(/./g, function(s) {
+            return "&#" + s.charCodeAt(0)
+                /*.toString(16) 转换成16进制也可以滴*/
+                + ";";
+        });
+        console.log(payload1);// 即onerror那值
+    });
+    </script>
+</body>
+
+</html>

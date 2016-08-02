@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <!-- 有效 为绕过正则，最后没有“>”。强大的HTML容错性，哈哈 <img src="fdfddf" onerror=console.log('xss') style="display:none" -->
+    输入内容：
+    <input type="text" id="input">
+    <br> 输出内容：
+    <div id="output">
+    </div>
+    <script src="../../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(function() {
+        function escape(input) {
+            var stripTagsRE = /<\/?[^>]+>/gi;//匹配开始标签和结束标签
+            input = input.replace(stripTagsRE, '');
+            return '<article>' + input + '</article>';
+        }
+        var $input = $('#input');
+        var $output = $('#output');
+        $input.keyup(function() {
+            $output.html(escape($input.val()));
+        })
+    });
+    </script>
+</body>
+
+</html>

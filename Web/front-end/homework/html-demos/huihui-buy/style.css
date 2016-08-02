@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after,
+.container:after {
+    clear: both;
+}
+
+.clearfix,
+.container {
+    *zoom: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+}
+/*头部 start*/
+
+#header .logo {
+    float: left;
+}
+
+#header .search.wrap {
+    float: left;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#header .search.wrap .type.select,
+#header .search.wrap .name.input,
+#header .search.wrap .search.btn{
+	float: left;
+}
+
+#header .search.wrap .type.select{
+	margin-right: 20px;
+	margin-top: 11px;
+}
+
+#header .search.wrap .name.input {
+    height: 30px;
+    padding: 5px 5px 5px 15px;
+    border: 1px solid #efefef;
+    border-right:none;
+}
+
+#header .search.wrap .search.btn {
+    border: 0;
+    width: 51px;
+    height: 42px;
+    cursor: pointer;
+    text-indent: -999em;
+    overflow: hidden;
+    background-image: url(http://shared.ydstatic.com/fanxian/5.1.4/images/image/h_hd2.png);
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    margin-left: 0;
+}
+
+#header .user.info.links {
+    float: right;
+    margin-top: 10px;
+}
+
+#header .user.info.links>li {
+    float: left;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+#header #main-menu .nav {
+    float: left;
+    line-height: 45px;
+    height: 45px;
+}
+
+#header #main-menu .nav>a {
+    display: block;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #666;
+    padding: 0 18px;
+}
+
+#header .menu.wrap {
+    margin-top: 30px;
+    border-bottom: 2px solid #fd8712;
+}
+
+#header #main-menu .current.nav>a,
+#header #main-menu .nav>a:hover {
+    background-color: #fd8712;
+    color: #fff;
+}
+
+#header .share.links {
+    float: right;
+}
+
+#header .share.links>.link {
+    float: left;
+    line-height: 27px;
+    margin-top: 5px;
+}
+
+#header .share.links>.link>a {
+    display: block;
+    color: #fff;
+    background-color: #f87c01;
+    width: 90px;
+    text-align: center;
+    font-size: 14px;
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+/*头部 end*/
+
+#main #item-detail {
+    float: left;
+    width: 685px;
+    margin-top: 10px;
+}
+
+#main #item-detail .header>.title>a {
+    color: #333;
+    font-size: 24px;
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+    line-height: 2em;
+}
+
+#item-detail .header .time {
+    color: #fd8104;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+#item-detail .header .infos {
+    line-height: 23px;
+    color: #999;
+}
+
+#item-detail .header .infos>.info {
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    padding-left: 20px;
+    background: url(http://oimageb6.ydstatic.com/image?id=-381990628512247314&product=gouwu) no-repeat 0 center;
+}
+
+#item-detail .content p {
+    text-indent: 2em;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+#item-detail .others>h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+
+#item-detail .others .goodss {
+    font-size: 0;
+}
+
+#item-detail .others .goods {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 228px;
+    font-size: 12px;
+    width: 225px;
+    padding: 30px 20px;
+}
+
+#item-detail .others .goods img {
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+#item-detail .others .goods .name>strong {
+    color: #fd8104;
+    font-size: 14px;
+}
+
+#main>.sides {
+    margin-left: 710px;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+}
+
+#main>.sides .side.box .title {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    line-height: 40px;
+}
+
+#main>.sides .recommend.side.box img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 3px 16px 0 7px;
+}
+
+#main>.sides .recommend.side.box .goods.item {
+    height: 75px;
+}
+
+#main>.sides .recommend.side.box .describe {
+    margin-left: 76px;
+}
+
+#main>.sides .recommend.side.box .describe>a {
+    color: #333;
+    display: block;
+}
+
+#main>.sides .recommend.side.box .describe>small {
+    color: #a7a7a7;
+}

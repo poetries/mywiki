@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    .apple {
+        position: relative;
+        width: 172px;
+        height: 202px;
+        margin: 150px auto;
+        outline: 1px solid green;
+        outline-offset: 30px;
+    }
+    
+    .handle {
+        position: absolute;
+        z-index: 100;
+        left: 122px;
+        top: -22px;
+        transform: rotate(40deg);
+        background-color: #62bb47;
+    }
+    
+    .handle:before,
+    .handle:after {
+        background-color: #62bb47;
+        border-radius: 50%;
+        content: "#";
+        display: block;
+        height: 90px;
+        position: absolute;
+        text-indent: -9999px;
+        width: 90px;
+    }
+    
+    .handle:before {
+        clip: rect(0 13px 80px 0px);
+    }
+    
+    .handle:after {
+        clip: rect(14px 100px 76px 76px);
+        left: -64px;
+    }
+    
+    .apple .top,
+    .apple .bottom {
+        position: absolute;
+        background-color: #e03a3e;
+    }
+    
+    .top-wrap,
+    .bottom-wrap {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .top-wrap {
+        top: 47px;
+        height: 128px;
+    }
+    
+    .top {
+        top: 0;
+        border-radius: 108px/128px;
+        width: 108px;
+        height: 100%;
+    }
+    
+    .top.left {
+        left: 0;
+    }
+    
+    .top.right {
+        right: 0;
+    }
+    
+    .bottom-wrap {
+        top: 98px;
+        height: 104px;
+    }
+    
+    .bottom {
+        border-radius: 22px 22px 64px 64px/106px 106px 106px 106px;
+        height: 106px;
+        top: 0;
+        width: 64px;
+    }
+    
+    .bottom.left {
+        transform: rotate(-25deg);
+        left: 12px;
+    }
+    
+    .bottom.right {
+        transform: rotate(25deg);
+        right: 12px;
+    }
+    
+    .middle,
+    .bottom-radius,
+    .top-radius {
+        position: absolute;
+        background-color: #e03a3e;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .middle {
+        height: 145px;
+        top: 55px;
+        width: 70px;
+    }
+    
+    .bottom-radius {
+        position: absolute;
+        border-radius: 50%;
+        height: 22px;
+        top: 192px;
+        width: 48px;
+        background-color: #fff;
+    }
+    
+    .top-radius {
+        top: -26px;
+        border-radius: 20px;
+        height: 80px;
+        transform: translateX(-50%) rotate(-45deg) scale(0.9);
+        width: 80px;
+        background-color: #fff;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- http://www.ecsspert.com/css3-logos/apple.php -->
+    <div class="apple">
+        <div class="handle"></div>
+        <div class="top-wrap">
+            <div class="top left"></div>
+            <div class="top right"></div>
+        </div>
+        <div class="bottom-wrap">
+            <div class="bottom left"></div>
+            <div class="bottom right"></div>
+        </div>
+        <div class="middle"></div>
+        <div class="bottom-radius"></div>
+        <div class="top-radius"></div>
+    </div>
+</body>
+
+</html>

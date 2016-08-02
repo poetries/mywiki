@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <!-- 有效 &#40;和 &lpar;是(的实体值。在svg标签中script中HTML实体装化成实际值。
+<svg><script>console.log&#40;'xss')</script> 或
+<svg><script>console.log&lpar;'xss')</script> 或 ES6中的
+<script>eval.call`${'console.log\x28"xss")'}`</script>  -->
+    输入内容：
+    <input type="text" id="input">
+    <br> 输出内容：
+    <div id="output">
+    </div>
+    <script src="../../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(function() {
+        function escape(input) {
+            //                      v-- frowny face
+            input = input.replace(/[=(]/g, '');
+            // ok seriously, disallows equal signs and open parenthesis
+            return input;
+        }
+        var $input = $('#input');
+        var $output = $('#output');
+        $input.keyup(function() {
+            $output.html(escape($input.val()));
+        })
+    });
+    </script>
+</body>
+
+</html>

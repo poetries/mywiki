@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户调查</title>
+</head>
+
+<body>
+    <form action="form/submit/place" method="post">
+        <fieldset>
+            <legend>用户调查</legend>
+            <div>
+                <label for="name">姓名：</label>
+                <input type="text" id="name" id="name">
+            </div>
+            <div>
+                <label>性别：</label>
+                <input type="radio" name="gender" checked="checked"> 男
+                <input type="radio" name="gender"> 女
+            </div>
+            <div>
+                <label for="country">所在国家：</label>
+                <select name="country" id="country">
+                    <option value="china">中国</option>
+                    <option value="america">美国</option>
+                </select>
+            </div>
+            <div>
+                <label for="hobby">爱好：</label>
+                <input type="checkbox" name="hobby" value＝ "movie">电影
+                <input type="checkbox" name="hobby" value＝ "anim">动画
+                <input type="checkbox" name="hobby" value＝ "travel">旅行
+            </div>
+            <div>
+                <label for="describe">自我介绍：</label>
+                <textarea name="describe" id="describe" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <div>
+            <button type="reset">重置</button>
+            <button type="submit">提交</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

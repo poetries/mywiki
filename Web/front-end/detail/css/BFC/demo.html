@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BFC demo</title>
+</head>
+
+<body>
+    <style>
+    .bfc-1 {
+        overflow: hidden;
+        background-color: #f00;
+    }
+    .bfc-1 > .inner{
+    	float: left;
+    	height: 300px;
+    }
+    </style>
+    <h2>计算BFC的高度时，浮动元素也参与计算</h2>
+    <div class="bfc-1">
+        <div class="inner"></div>
+    </div>
+
+	<style>
+		.bfc-2 {
+        	display: inline-block;
+        	background-color: #f00;
+    	}
+	</style>
+	<h2>内部的Box会在垂直方向，一个接一个地放置。</h2>
+    <div class="bfc-2">
+    	<p>我不愿提起窦唯，他总是年轻的</p>
+    	<p> 载我一片痴心妄想</p>
+    </div>
+
+	<style>
+		.fl{
+			background-color: #ff0;
+			width: 200px;
+			height: 200px;
+			float: left;
+			margin-right: 10px;
+		}
+		.bfc-3{
+			overflow: hidden;
+			background-color: #f00;
+			height: 300px;
+		}
+	</style>
+    <h2>BFC的区域不会与float box重叠。</h2>
+    <div class="fl"></div>
+    <div class="bfc-3"></div>
+</body>
+
+</html>

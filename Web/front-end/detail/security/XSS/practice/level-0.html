@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+<!-- 未执行onload "><svg/onload=prompt(1)> -->
+<!-- 有效 "><img src="fdfddf" onerror=console.log('xss') style="display:none"> -->
+<!-- " autofocus onfocus="console.log('xss')"   -->
+
+    输入内容：<input type="text" id="input"><br>
+	输出内容：<div id="output">
+		
+	</div>
+	<!-- <input type="text" value="" autofocus="" onfocus="console.log('xss')" "=""> -->
+
+	<script src="../../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(function(){
+	    function escape(input) {
+	    	// input = input.replace('<', '&lt;');
+	        // warm up
+	        // script should be executed without user interaction
+	        return '<input type="text" value="' + input + '">';
+	    }
+	    var $input = $('#input');
+	    var $output = $('#output');
+	    $input.keyup(function(){
+	    	$output.html(escape($input.val()));
+	    })
+    });
+    </script>
+</body>
+
+</html>

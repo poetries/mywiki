@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>两列布局</h2>
+        <h3>两列均float:left</h3>
+        <div class="two-both-float-row row clearfix">
+            <div class="left col"></div>
+            <div class="right col"></div>
+        </div>
+		
+		<h3>一列float:left，一列floa:right</h3>
+        <div class="float-left-right-row row clearfix">
+            <div class="left col"></div>
+            <div class="right col"></div>
+        </div>
+
+
+		<h3>一列float:left，一列不浮(自适应)</h3>
+        <div class="one-float-row row clearfix">
+            <div class="left col"></div>
+            <div class="right col"></div>
+        </div>
+
+        
+
+        <h3>用display：inline－block</h3>
+        <div class="inline-block-row row">
+            <div class="left col"></div>
+            <div class="right col"></div>
+        </div>
+
+        <h2>三列布局</h2>
+		<h3>三列均float:left</h3>
+        <div class="three-both-float-row row clearfix">
+            <div class="left col"></div>
+            <div class="middle col"></div>
+            <div class="right col"></div>
+        </div>
+
+        <h3>一列float:left，一列floa:right，中间列不浮(自适应)</h3>
+        <div class="float-left-right-none-row row clearfix">
+            <div class="left col"></div>
+            <div class="right col"></div>
+            <div class="middle col"></div>
+        </div>
+
+        <h3>用display：inline－block</h3>
+        <div class="three-inline-block-row row">
+            <div class="left col"></div>
+            <div class="middle col"></div>
+            <div class="right col"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

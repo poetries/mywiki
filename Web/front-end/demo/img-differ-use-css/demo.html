@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用CSS来找出两张图的差异</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.tc-wrap{
+		text-align: center;
+	}
+	.wrap{
+		position: relative;
+		width: 350px;
+		margin: 10px auto;
+	}
+
+	.img{
+		display: block;
+	}
+	.img--cover{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.wrap--filter .img--cover{
+		-webkit-filter: invert(100%) opacity(50%);
+		filter: invert(100%) opacity(50%);
+	}
+
+	.wrap--mix-blend-mode .img--cover{
+		mix-blend-mode: difference;
+	}
+
+	</style>
+</head>
+<body>
+	<h2>原图</h2>
+	<div class="tc-wrap">
+		<img src="spot_the_difference1.png">
+		<img src="spot_the_difference2.png">
+	</div>
+
+	<h2>用 filter 来做</h2>
+	<div class="wrap wrap--filter">
+		<img src="spot_the_difference1.png" alt="" class="img">
+		<img src="spot_the_difference2.png" alt="" class="img img--cover">
+	</div>
+
+	<h2>用 mix-blend-mode 来做</h2>
+	<div class="wrap wrap--mix-blend-mode">
+		<img src="spot_the_difference1.png" alt="" class="img">
+		<img src="spot_the_difference2.png" alt="" class="img img--cover">
+	</div>
+</body>
+</html>

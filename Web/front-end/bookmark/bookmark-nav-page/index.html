@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>前端常用网站导航</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>前端常用网站导航 <!-- (<a href="#tip" class="ignore-search">使用说明</a>) --></h1>
+    <ul class="nav">
+      <li class="nav__list-wrap">
+        <h2 class="nav__header">API</h2>
+        <ul class="nav__item-list">
+          <li class="nav__item"><a href="http://api.jquery.com/">jQuery</a></li>
+          <li class="nav__item"><a href="https://jqueryui.com/" data-shortcut="i">jQuery UI</a></li>
+          <br>
+          <li class="nav__item"><a href="http://cn.vuejs.org/api/">Vue.js</a></li>
+          <li class="nav__item"><a href="http://router.vuejs.org/zh-cn/index.html" data-shortcut="a">vue-router</a></li>
+          <li class="nav__item"><a href="http://vuex.vuejs.org/zh-cn/index.html" data-shortcut="x">vuex</a></li>
+          <li class="nav__item"><a href="https://github.com/vuejs/vue-resource/blob/master/docs/http.md" data-shortcut="h">vue-resource</a></li>
+          <li class="nav__item"><a href="https://vuxjs.gitbooks.io/vux/content/" data-shortcut="z">vux</a></li>
+          <br>
+          <li class="nav__item"><a href="http://underscorejs.org/">Underscore.js</a></li>
+          <br>
+          <li class="nav__item"><a href="http://v3.bootcss.com/">Bootstrap3</a></li>
+          <li class="nav__item"><a href="http://v2.bootcss.com/" data-shortcut="2">Bootstrap2</a></li>
+          <br>
+          <li class="nav__item"><a href="http://compass-style.org/reference/compass/">Compass</a></li>
+          <li class="nav__item"><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html">Sass</a></li>
+          <br>
+          <li class="nav__item"><a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" data-shortcut="e">Flex 布局教程：语法篇</a></li>
+        </ul>
+      </li>
+      <li class="nav__list-wrap">
+        <h2 class="nav__header">工具</h2>
+        <ul>
+          <li class="nav__item"><a href="http://www.staticfile.org/" data-shortcut="k">公共CDN</a></li>
+          <li class="nav__item"><a href="http://regexr.com/" data-shortcut="r">正则在线工具</a></li>
+          <li class="nav__item"><a href="https://jex.im/regulex/" data-shortcut="3">regulex:正则可视化</a></li>
+          <li class="nav__item"><a href="http://jsonlint.com/" data-shortcut="l">jsonlint</a></li>
+          <br>
+          <li class="nav__item"><a href="http://webpack.github.io/docs/">webpack</a></li>
+          <br>
+          <li class="nav__item"><a href="https://htmlpreview.github.io/">GitHub HTML预览</a></li>
+          <li class="nav__item"><a href="https://rawgit.com/" data-shortcut="1">RawGit</a></li>
+        </ul>
+      </li>
+      <li class="nav__list-wrap">
+        <h2 class="nav__header">资源</h2>
+        <ul>
+          <li class="nav__item"><a href="https://unsplash.com/" data-shortcut="p">Unsplash：免费图片</a></li>
+        </ul>
+    </ul>
+    <div class="auto-complate">
+      <div class="auto-complate__search-area">
+        <input type="text" class="auto-complate__input">
+      </div>
+      <ul class="auto-complate__content"></ul>
+    </div>
+    <div id="tip">
+      <h2>使用说明</h2>
+      <ul>
+        <li>支持用快捷键来打开链接。如果链接文本最后是有括号的，则快捷键为括号中的值，否则，快捷键是链接文本的第一个字母。</li>
+        <li>
+          <h3>模糊搜索链接的搜索框</h3>
+          <ul>
+            <li>召唤出模糊搜索框：用快捷键f </li>
+            <li>搜索：在模糊搜索框中输入内容，会列出页面上所有链接的名称或链接地址中包含搜索框的值的链接</li>
+            <li>打开链接：用快捷键回车或点击</li>
+            <li>关闭搜索框：用快捷键ESE或点击非搜索框区域</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script class="auto-complate-template" type="text/template">
+    <li class="auto-complate__item">
+      <a href="{href}" target="_blank">
+        <div class="auto-complate__name">{name}</div>
+        <div class="auto-complate__link">{hrefText}</div>
+      </a>
+    </li>
+  </script>
+  <script src="index.js"></script>
+</body>
+
+</html>

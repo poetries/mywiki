@@ -1,0 +1,78 @@
+@import "compass/css3";
+// http://compass-style.org/reference/compass/css3/animation/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: #f00;
+}
+
+
+
+.bounce {
+    @include animation(bounce 5s infinite);
+}
+
+@include keyframes(bounce){
+	0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-80px);
+    }
+    90% {
+        transform: translateX(100px);
+    }
+};
+
+.sub-anim-prop{
+	@include animation-name(bounce);
+	@include animation-duration(2s);
+	@include animation-delay(2s);
+	@include animation-timing-function(ease-in-out);// ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))
+	@include animation-iteration-count(3);
+	@include animation-direction(alternate);
+	@include animation-fill-mode(none);// forwards, backwards, both, none
+
+}
+// animation-direction
+.animation-direction-normal{
+    @include animation(LToR 1s 5 normal);
+}
+.animation-direction-alternate{
+    @include animation(LToR 1s 5 alternate);
+}
+.animation-direction-reverse{
+    @include animation(LToR 1s 5 reverse);
+}
+.animation-direction-alternate-reverse{
+    @include animation(LToR 1s 5 alternate-reverse);
+}
+
+.animation-fill-mode-none{
+    @include animation(LToR 1s 5);
+}
+.animation-fill-mode-forwards{
+    @include animation(LToR 1s 5 forwards);
+}
+.animation-fill-mode-backwards{
+    @include animation(LToR 1s 5 backwards);
+}
+.animation-fill-mode-both{
+    @include animation(LToR 1s 5 both);
+}
+@include keyframes(LToR){
+	0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+};
+

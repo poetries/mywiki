@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>测试storage</title>
+</head>
+
+<body>
+    监视storage数据的变化
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+    <script>
+    $(window).bind('storage', function(e) {
+        console.log('storage changed');
+    });
+    </script>
+</body>
+
+</html>

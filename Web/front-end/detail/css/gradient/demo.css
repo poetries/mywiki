@@ -1,0 +1,80 @@
+.demo-item {
+    height: 100px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.linear-two-color {
+    /* bg:lg(#f60,#f00);*/
+    background-image: -webkit-linear-gradient(#f60, #f00);
+    background-image: -o-linear-gradient(#f60, #f00);
+    background-image: linear-gradient(#f60, #f00);
+}
+
+.linear-left-to-right-two-color {
+    /* bg:lg(to right, #f60,#f00);*/
+    background-image: -webkit-linear-gradient(left, #f60, #f00);
+    background-image: -o-linear-gradient(left, #f60, #f00);
+    background-image: linear-gradient(to right, #f60, #f00);
+}
+
+.linear-left-to-bottom-right-two-color {
+    background-image: -webkit-linear-gradient(top left, #f60, #f00);
+    background-image: -o-linear-gradient(top left, #f60, #f00);
+    background-image: linear-gradient(to bottom right, #f60, #f00);
+}
+
+.linear-30deg-two-color {
+    background: linear-gradient(30deg, #f60, #f00);
+}
+
+.linear-multi-color {
+    background-image: -webkit-linear-gradient(left, red, #f06d06, rgb(255, 255, 0), green);
+    background-image: -o-linear-gradient(left, red, #f06d06, rgb(255, 255, 0), green);
+    background-image: linear-gradient(to right, red, #f06d06, rgb(255, 255, 0), green);
+}
+
+.linear-multi-more-or-less-color {
+    background-image: -webkit-linear-gradient(left, red 10%, blue 70%, blue 80%, #fff 90%, green);
+    background-image: -o-linear-gradient(left, red 10%, blue 70%, blue 80%, #fff 90%, green);
+    background-image: linear-gradient(to right, red 10%, blue 40%, blue 80%, #fff 90%, green);
+}
+
+.demo-item[class*='radial-'] {
+    width: 200px;
+    height: 200px;
+}
+
+.radial-two-color {
+    background-image: radial-gradient( yellow, #f06d06);
+}
+
+.radial-closest-side-two-color {
+    background-image: radial-gradient( circle closest-side, yellow, #f06d06);
+}
+
+.radial-top-right-two-color {
+    background-image: radial-gradient( circle at top right, yellow, #f06d06);
+}
+
+.radial-special-point-two-color {
+    background-image: radial-gradient( circle closest-side at 60px 60px, yellow, #f06d06);
+}
+
+.repeat-linear {
+    background-image: repeating-linear-gradient( 45deg, yellow, yellow 10px, red 10px, red 20px);
+    border-radius: 50px;
+}
+
+.repeat-linear2 {
+    background-color: #5cb85c;
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.14902) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.14902) 50%, rgba(255, 255, 255, 0.14902) 75%, transparent 75%, transparent);
+    background-size: 40px 40px;
+    border-radius: 50px;
+}
+
+.repeat-radial {
+    background-image: repeating-radial-gradient( circle at 0 0, yellow, red 50px);
+    width: 200px;
+    height: 200px;
+}

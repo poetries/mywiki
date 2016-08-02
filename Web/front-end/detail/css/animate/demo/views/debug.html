@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>调试CSS3动画</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .target {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: 50px auto;
+        background-color: #f00;
+        animation: target 5s;
+    }
+    
+    @keyframes target {
+        0% {
+            transform: scale(1);
+        }
+        20% {
+            transform: sale(-80px);
+        }
+        90% {
+            transform: translateX(100px);
+        }
+        /*100% { not needed
+        transform: translateX(0);
+    }*/
+    }
+    </style>
+</head>
+
+<body>
+    <!-- https://github.com/zehfernandes/jQuery.DebugCssAnimation/blob/master/src/jquery.debugcssanimation.js -->
+    <div class="target"></div>
+    <div class="range">
+        <input class="range__input" type="range" name="quantity" min="1" max="10" step="2">
+        <span class="range__value">0</span><span class="range__value-unit">秒</span>
+    </div>
+    <script src="../../../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+
+        // var DebuggerAnim = function () {
+        // 	// body...
+        // };
+        /*
+         * 调试CSS动画
+         *
+         */
+        function debugAnim($target, splitNum) {
+            $target.css('animation-play-state', 'paused'); // 暂停
+            var duration = parseTimeValue($target.css('animation-duration'));
+            splitNum = splitNum || 5;
+            this.range = new _Range($('.range'), {
+                $target: $target,
+                max: duration / 1000,
+                step: duration / 1000 / splitNum // 分5段
+            });
+        }
+
+        function _Range($el, param) {
+            var self = this;
+            this.$el = $el;
+            this.$input = $el.find('.range__input');
+            this.$value = $el.find('.range__value');
+            this.$target = param.$target;
+            this.$input.attr('min', 0);
+            this.$input.attr('max', param.max);
+            this.$input.attr('step', param.step);
+
+            this.set(0);
+
+            this.$input.change(function() {
+                self.set(this.value);
+            });
+            return this;
+        }
+
+        _Range.prototype = {
+            set: function(value) { // 秒为单位
+                this.$input.val(value);
+                this.$value.text(value);
+                this.$target.css('animation-delay', '-' + value + 's');
+            }
+        }
+
+        // 返回毫秒值
+        function parseTimeValue(value) {
+            var timeReg = /([\d\.]+)(m?s)/;
+            var matchRes = timeReg.exec(value);
+            var res = false;
+            var ratio;
+            if (matchRes) {
+                if (matchRes[2] === 'ms') {
+                    ratio = 1;
+                } else {
+                    ratio = 1000;
+                }
+                res = matchRes[1] * ratio;
+            }
+            return res;
+        }
+
+        debugAnim($('.target'), 10);
+
+    });
+    </script>
+</body>
+
+</html>

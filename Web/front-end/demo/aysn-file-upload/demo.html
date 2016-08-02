@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用XMLHttpRequest2技术：异步提交带文件的表单</title>
+</head>
+
+<body>
+    <form id="upload-form" action="/upload" method="post">
+        <input type="file" name="file">
+        <button type="summit" id="summit-btn">提交</button>
+    </form>
+    <script src="http://cdn.staticfile.org/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/jquery-mockjax/1.5.3/jquery.mockjax.min.js"></script>
+    <script>
+    $.mockjax({
+        url: "/upload",
+        type: 'post',
+        response: function(setting) {
+            console.log(setting.data);
+            this.responseText = "upload success~";
+        }
+    });
+    $(function() {
+        var $form = $('#upload-form');
+        $form.find('#summit-btn').click(function(evt) {
+            evt.preventDefault();
+            var formData = new FormData();
+            $form.find('input').each(function() {
+                if (this.type == 'file' && this.files.length > 0) {
+                    for (var i = 0; i < this.files.length; i++) {
+                        formData.append(this.name, this.files.item(i)); // 存放文件数据
+                    }
+                } else {
+                    formData.append(this.name, this.value);
+                }
+            });
+
+            $.ajax({
+                url: $form.attr('action'),
+                data: formData,
+                processData: false,
+                contentType: false,
+                type: $form.attr('method'),
+                success: function(data) {
+                    console.log(data);
+                },
+                xhr: function() { // mock 未对这个做处理吧。。。
+                    // 显示进度。  https://xhr.spec.whatwg.org/#interface-progressevent
+                    var xhr = new window.XMLHttpRequest();
+                    xhr.upload.addEventListener("progress", function(evt) {
+                        if (evt.lengthComputable) {
+                            var percentComplete = evt.loaded / evt.total;
+                            percentComplete = parseInt(percentComplete * 100);
+                            console.log(percentComplete + '%');
+
+                            if (percentComplete === 100) {
+                                console.log('加载完成')
+                            }
+                        }
+                    }, false);
+
+                    return xhr;
+                }
+            });
+
+            return false;
+        });
+
+
+    });
+    </script>
+</body>
+
+</html>

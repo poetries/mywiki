@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>向里凹的圆角</title>
+    <style>
+    body {
+        background-color: rgb(114, 188, 191);
+    }
+    
+    .target {
+    	background-color: #fff;
+        position: relative;
+        width: 195px;
+        height: 195px;
+        margin: 50px auto;
+        overflow: hidden;
+    }
+    
+    .target::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgb(114, 188, 191);
+        box-shadow: 15px 0 0 rgb(114, 188, 191), 30px 0 0 rgb(114, 188, 191), 45px 0 0 rgb(114, 188, 191), 60px 0 0 rgb(114, 188, 191), 75px 0 0 rgb(114, 188, 191), 90px 0 0 rgb(114, 188, 191), 105px 0 0 rgb(114, 188, 191), 120px 0 0 rgb(114, 188, 191), 135px 0 0 rgb(114, 188, 191), 150px 0 0 rgb(114, 188, 191), 165px 0 0 rgb(114, 188, 191), 180px 0 0 rgb(114, 188, 191), 195px 0 0 rgb(114, 188, 191), 0 195px 0 rgb(114, 188, 191), 15px 195px 0 rgb(114, 188, 191), 30px 195px 0 rgb(114, 188, 191), 45px 195px 0 rgb(114, 188, 191), 60px 195px 0 rgb(114, 188, 191), 75px 195px 0 rgb(114, 188, 191), 90px 195px 0 rgb(114, 188, 191), 105px 195px 0 rgb(114, 188, 191), 120px 195px 0 rgb(114, 188, 191), 135px 195px 0 rgb(114, 188, 191), 150px 195px 0 rgb(114, 188, 191), 165px 195px 0 rgb(114, 188, 191), 180px 195px 0 rgb(114, 188, 191), 195px 195px 0 rgb(114, 188, 191), 0 15px 0 rgb(114, 188, 191), 0 30px 0 rgb(114, 188, 191), 0 45px 0 rgb(114, 188, 191), 0 60px 0 rgb(114, 188, 191), 0 75px 0 rgb(114, 188, 191), 0 90px 0 rgb(114, 188, 191), 0 105px 0 rgb(114, 188, 191), 0 120px 0 rgb(114, 188, 191), 0 135px 0 rgb(114, 188, 191), 0 150px 0 rgb(114, 188, 191), 0 165px 0 rgb(114, 188, 191), 0 180px 0 rgb(114, 188, 191), 0 195px 0 rgb(114, 188, 191), 195px 0 0 rgb(114, 188, 191), 195px 15px 0 rgb(114, 188, 191), 195px 30px 0 rgb(114, 188, 191), 195px 45px 0 rgb(114, 188, 191), 195px 60px 0 rgb(114, 188, 191), 195px 75px 0 rgb(114, 188, 191), 195px 90px 0 rgb(114, 188, 191), 195px 105px 0 rgb(114, 188, 191), 195px 120px 0 rgb(114, 188, 191), 195px 135px 0 rgb(114, 188, 191), 195px 150px 0 rgb(114, 188, 191), 195px 165px 0 rgb(114, 188, 191), 195px 180px 0 rgb(114, 188, 191), 195px 195px 0 rgb(114, 188, 191);
+    }
+    
+    .target>img {
+        display: block;
+        margin: 10px;
+        width: 175px;
+        height: 175px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="target">
+        <img src="stamp.png"></div>
+    </div>
+</body>
+
+</html>

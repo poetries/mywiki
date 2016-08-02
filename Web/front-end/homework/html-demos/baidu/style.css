@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    overflow: hidden;
+}
+#header>.navs {
+    float: right;
+    margin-right: 30px;
+}
+#header>.navs>.nav {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+#main {
+    width: 960px;
+    margin: 30px auto 170px;
+    text-align: center;
+}
+#main .query.input {
+    width: 521px;
+    height: 17px;
+    padding: 9px 7px;
+}
+#main .query.btn {
+    cursor: pointer;
+    width: 102px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    border: 0;
+    background-color: #38f;
+    font-size: 16px;
+    color: white;
+}
+
+#footer{
+	text-align: center;
+}
+#footer>.navs{
+	font-size: 0;
+}
+#footer>.navs>.nav{
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 10px;
+}

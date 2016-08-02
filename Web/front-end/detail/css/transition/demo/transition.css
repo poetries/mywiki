@@ -1,0 +1,26 @@
+.simple-trans{
+	height: 100px;
+	width: 100px;
+	background-color: #ddd;
+	transition:width 2s;
+}
+.simple-trans:hover{
+	width: 200px;
+}
+
+.delay-trans{
+	height: 100px;
+	width: 100px;
+	background-color: #ddd;
+	transition:width 2s,height 1s 2s;
+}
+.delay-trans:hover{
+	width: 200px;
+	height: 200px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    transform: rotate(50deg);
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>常见布局（Flex实现）</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    [class*=__item] {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #ddd;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    
+    [class*=__item]:last-child {
+        margin-right: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- http://www.ruanyifeng.com/blog/2015/07/flex-examples.html -->
+    <div class="container">
+        <h2>基本网格布局</h2>
+        <p class="describe">最简单的网格布局，就是平均分布。在容器里面平均分配空间。</p>
+        <style>
+        .basic-grid__column {
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .basic-grid__item {
+            /*flex-grow: 1;*/
+            flex-grow: 1;
+        }
+        </style>
+        <div class="basic-grid">
+            <div class="basic-grid__column">
+                <div class="basic-grid__item">1/2</div>
+                <div class="basic-grid__item">1/2</div>
+            </div>
+            <div class="basic-grid__column">
+                <div class="basic-grid__item">1/3</div>
+                <div class="basic-grid__item">1/3</div>
+                <div class="basic-grid__item">1/3</div>
+            </div>
+            <div class="basic-grid__column">
+                <div class="basic-grid__item">1/4</div>
+                <div class="basic-grid__item">1/4</div>
+                <div class="basic-grid__item">1/4</div>
+                <div class="basic-grid__item">1/4</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>百分比布局</h2>
+        <p class="describe">某个网格的宽度为固定的百分比，其余网格平均分配剩余的空间。</p>
+        <style>
+        .percent-grid__column {
+            display: -webkit-flex;
+            display: flex;
+        }
+        
+        .percent-grid__item {
+            /*flex-grow: 1;*/
+            flex: 1;
+        }
+        
+        .percent-grid__item--50 {
+            /*flex-basis: 50%;
+            flex-grow: 0;*/
+            flex: 0 50%;
+        }
+        .percent-grid__item--25 {
+            flex: 0 25%;
+        }
+        </style>
+        <div class="percent-grid">
+            <div class="percent-grid__column">
+                <div class="percent-grid__item percent-grid__item--50">1/2</div>
+                <div class="percent-grid__item">auto</div>
+                <div class="percent-grid__item">auto</div>
+            </div>
+
+            <div class="percent-grid__column">
+                <div class="percent-grid__item percent-grid__item--25">1/4</div>
+                <div class="percent-grid__item">auto</div>
+                <div class="percent-grid__item">auto</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

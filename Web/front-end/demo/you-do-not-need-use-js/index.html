@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>You Don't Need JavaScript</title>
+  <style>
+  /* demo1 */
+
+  .demo-1 {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .target {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+  }
+
+  .controller {
+    display: none;
+  }
+
+  .controller:checked + .target {
+    width: 300px;
+  }
+  /* demo2 */
+
+  .demo-2 {
+    counter-reset: list 0;
+    margin-bottom: 10px;
+  }
+
+  .demo-2 .block {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .demo-2 .block:nth-child(1) {
+    background-color: red;
+  }
+
+  .demo-2 .block:nth-child(2) {
+    background-color: green;
+  }
+
+  .demo-2 .block input {
+    display: none;
+  }
+
+  .demo-2 .block input:checked {
+    display: block;
+    opacity: 0;
+    /* 必须显示。。。 */
+    counter-increment: list;
+  }
+
+  .demo-2 .result::after {
+    content: "选择了"counter(list)"个";
+  }
+  /*demo3*/
+
+  .demo-3 .block {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .demo-3 .block:nth-child(1) {
+    background-color: red;
+  }
+
+  .demo-3 .block:nth-child(2) {
+    background-color: green;
+  }
+
+  .demo-3 .block input {
+    display: none;
+  }
+
+  .demo-3 .result-wrap{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+  }
+  .demo-3 .result{
+    position: absolute;
+    top: -80px;
+  }
+  .demo-3 .result-wrap input{
+    display: block;
+    height: 0;
+    margin: 0;
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+  }
+  .demo-3 .result__num, .demo-3 .result-wrap input:checked{
+    height: 40px;
+  }
+
+  </style>
+</head>
+
+<body>
+  <!-- https://github.com/NamPNQ/You-Dont-Need-Javascript -->
+  <!-- label 被点击时候，会切换子元素 checkbox的选中状态。 label + checkbox 和 +/~ 选择器 -->
+  <label class="demo-1">
+    <input type="checkbox" class="controller">
+    <div class="target">
+      点我
+    </div>
+  </label>
+  <div class="demo-2">
+    <label class="block">
+      <input type="checkbox">
+    </label>
+    <label class="block">
+      <input type="checkbox">
+    </label>
+    <div class="result"></div>
+  </div>
+  <div class="demo-3">
+    <label class="block">
+      <input type="radio" name="group1">
+    </label>
+    <label class="block">
+      <input type="radio" name="group2">
+    </label>
+    <div class="result-wrap">
+      <div class="result">
+        <input type="radio" name="group1" checked>
+        <input type="radio" name="group2" checked>
+        <div class="result__num">点击过0个</div>
+        <div class="result__num">点击过1个</div>
+        <div class="result__num">点击过2个</div>
+      </div>
+    </div>
+</body>
+
+</html>

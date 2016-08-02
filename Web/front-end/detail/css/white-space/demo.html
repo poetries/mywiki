@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>white space</title>
+    <style>
+    div {
+        width: 100px;
+        outline: 1px solid red;
+    }
+    
+    .normal {
+        white-space: normal;
+    }
+    
+    .no-wrap {
+        white-space: nowrap;
+    }
+    
+    .pre {
+        white-space: pre;
+    }
+    
+    .pre-wrap {
+        white-space: pre-wrap;
+    }
+    
+    .pre-line {
+        white-space: pre-line;
+    }
+    </style>
+</head>
+
+<body>
+	<!-- 空格;tab：开头空格被合并，中间的多个合并成 1 个
+	回车: 是否无视;有哪些回车符号(\n)
+	是否在元素内 -->
+
+	<h2>默认值（即为normal）</h2>
+    <div>     A bunch of words you see.中文  测试</div>
+    <h2>normal：</h2>
+    <div class="nomal">     A     bunch of words you see.    </div>
+    <h3>有Tab</h3>
+    <div class="nomal">			A bunch		of words you see.</div>
+    <h3>有回车</h3>
+    <div class="nomal">A bunch of 
+    words you see.</div>
+    <div class="nomal">			A\n\t bunch		of words you see.</div>
+    <hr>
+
+    <h2>no-wrap</h2>
+    <div class="no-wrap">     A bunch of words you see.</div>
+    <div class="no-wrap">     A bunch of words you see.</div>
+    <h2>pre</h2>
+    <div class="pre">     A bunch of words you see.</div>
+    <h3>自带回车</h3>
+    <div class="pre">     A bunch of words 
+    you see.</div>
+    <h2>pre-wrap</h2>
+    <div class="pre-wrap">     A bunch of words you see.</div>
+    <h2>pre-line</h2>
+    <div class="pre-line">     A bunch of words you see.</div>
+</body>
+
+</html>

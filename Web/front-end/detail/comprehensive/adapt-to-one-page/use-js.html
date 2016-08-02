@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>让内容恰好占一屏，适配各种尺寸的设备:js实现</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <style>
+    html,
+    body {
+        margin: 0;
+    }
+
+    .adapt-height-item {
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .red-item {
+        background: red;
+    }
+
+    .green-item {
+        background: green;
+    }
+
+    .blue-item {
+        background: blue;
+    }
+
+    .yellow-item {
+        background: yellow;
+    }
+
+    .middle-content {
+        font-size: 0;
+    }
+
+    .middle-content__item {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="adapt-height-item red-item" data-style-height="1">第一级</div>
+    <div class="adapt-height-item adapt-height-item--content-one-line green-item middle-content" data-style-height="2" data-style-margin-top="0.5" data-style-margin-bottom="0.5" data-style-padding-top="0.5" data-style-padding-bottom="0.5">
+        <div class="adapt-height-item blue-item middle-content__item" data-style-height="1" data-style-padding-top="0.5" data-style-padding-bottom="0.5">
+            <div class="adapt-height-item green-item" data-style-height="1">第三级</div>
+            <div class="adapt-height-item yellow-item" data-style-height="1">第三级</div>
+        </div>
+        <div class="adapt-height-item red-item middle-content__item" data-style-height="2">第二级
+        </div>
+    </div>
+    <div class="adapt-height-item blue-item" data-style-height="1" data-style-padding-top="1">第一级</div>
+    <script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        function adaptHeightToOnePage() {
+            // 要算垂直间距的属性
+            var verticalAttr = ['height', 'margin-top', 'margin-bottom', 'padding-top', 'padding-bottom'];
+
+            // 适配当前元素及子元素的高度
+            adaptHeight($('body'));
+
+            function adaptHeight($el) {
+                var $layoutItems = $el.find('>.adapt-height-item');
+                if ($layoutItems.length === 0) {
+                    return;
+                }
+                var elHeight = $el.is('body') ? $(window).height() : $el.height();
+                var divTotalNums = 0; // 总共多少分
+                var divHeight; // 一份的高度
+                // 并列在一行显示的，只算第一个的
+                if ($el.is('.adapt-height-item--content-one-line')) {
+                    divTotalNums = getElemVerticalDivNums($layoutItems.eq(0));
+                } else {
+                    $layoutItems.each(function() {
+                        var $item = $(this);
+                        divTotalNums += getElemVerticalDivNums($item);
+                    });
+                }
+
+                divHeight = elHeight / divTotalNums;
+
+                $layoutItems.each(function() {
+                    var $item = $(this);
+                    verticalAttr.forEach(function(attrName) {
+                        var divNums = $item.data('style-' + attrName);
+                        if (divNums) {
+                            $item.css(attrName, divNums * divHeight + 'px');
+                        }
+                    });
+                    // 适配子元素的高度
+                    adaptHeight($item);
+                });
+            }
+
+            function getElemVerticalDivNums($el) {
+                return verticalAttr.reduce(function(prevTotalDivNums, attrName) {
+                    return prevTotalDivNums + getAttrNumberValue($el, 'style-' + attrName);
+                }, 0);
+            }
+
+            function getAttrNumberValue($elem, attrName) {
+                var val = $elem.data(attrName);
+                if (!isNaN(parseFloat(val))) {
+                    val = parseFloat(val);
+                } else {
+                    val = 0;
+                }
+                return val;
+            }
+        }
+
+        adaptHeightToOnePage();
+        $(window).resize(adaptHeightToOnePage);
+    });
+    </script>
+</body>
+
+</html>

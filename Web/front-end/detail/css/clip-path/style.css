@@ -1,0 +1,9 @@
+.item{
+	width: 100px;
+	height: 100px;
+	background-color: #f00;
+	margin: 50px auto;
+}
+.triangle{
+	-webkit-clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}

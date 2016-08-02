@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>编码</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="condition">
+        <div class="condition__item
+		 condition__type">
+            <input class="condition__type__encode" type="radio" name="type" checked>
+            <label>编码</label>
+            <input class="condition__type__decode" type="radio" name="type">
+            <label>解码</label>
+        </div>
+        <div class="condition__item condition__code-type">
+            <a href="javascript:void(0)" class="condition__code-type__html-decimal condition__btn condition__btn--selected">HTML十进制</a>
+            <a href="javascript:void(0)" class="condition__code-type__html-ox condition__btn">HTML十六进制</a>
+            <a href="javascript:void(0)" class="condition__code-type__js-o condition__btn">JS八进制</a>
+            <a href="javascript:void(0)" class="condition__code-type__js-ox condition__btn">JS十六进制</a>
+            <a href="javascript:void(0)" class="condition__code-type__js-ox condition__btn">JSunicode编码TODO</a>
+            <a href="javascript:void(0)" class="condition__code-type__js-ox condition__btn">url编码TODO</a>
+            <a href="javascript:void(0)" class="condition__code-type__js-ox condition__btn">base64TODO</a>
+        </div>
+    </div>
+    <div class="result">
+        <div class="result__input">
+            输入：
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+            <div class="result__btns">
+                <button class="result__btn result__confirm-btn">转化</button>
+                <button class="result__btn result__exchange-btn"><-</button>
+            </div>
+        </div>
+        <div class="result__output">
+            输出：
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+        </div>
+    </div>
+    <script src="../../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script src="tool.js">
+    </script>
+</body>
+
+</html>

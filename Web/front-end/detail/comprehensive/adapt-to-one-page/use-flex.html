@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>让内容恰好占一屏，适配各种尺寸的设备:flex实现</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <style>
+    html,
+    body {
+        margin: 0;
+        text-align: center;
+        height: 100%;
+        color: #fff;
+    }
+
+    .red-item {
+        background: red;
+    }
+
+    .green-item {
+        background: green;
+    }
+
+    .blue-item {
+        background: blue;
+    }
+
+    .yellow-item {
+        background: yellow;
+    }
+    .wrap{
+        height: 100%;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    </style>
+    </style>
+</head>
+
+<body>
+    <div class="flex wrap">
+        <div class="red-item" data-style-height="1">第一级</div>
+        <!-- 间距 -->
+        <div data-style-height="0.5"></div>
+        <div class="green-item flex" data-style-height="2">
+                <div data-style-height="1"></div>
+                <div class="flex-row blue-item" data-style-height="4">
+                    <div class="flex" data-style-height="1">
+                        <div data-style-height="1"></div>
+                        <div class=" green-item" data-style-height="1">第三级</div>
+                        <div class=" yellow-item" data-style-height="1">第三级</div>
+                        <div data-style-height="1"></div>
+                    </div>
+                    <div class=" red-item" data-style-height="1">第二级
+                    </div>
+                </div>
+                <div data-style-height="1"></div>
+        </div>
+        <!-- 间距 -->
+        <div data-style-height="0.5"></div>
+        <div class="blue-item" data-style-height="1">第一级</div>
+    </div>
+    <script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('[data-style-height]').each(function () {
+        var $item = $(this);
+        $item.css('flex-grow', $item.data('style-height'));
+      });
+    });
+    </script>
+</body>
+
+</html>

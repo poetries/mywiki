@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>下滑无限加载的简单实现</title>
+  <style>
+  .container{
+    width: 200px;
+    height: 300px;
+    margin: 50px auto;
+    overflow-y: auto;
+  }
+  .item{
+    height: 70px;
+    line-height: 70px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .item:first-child{
+    margin-top:0;
+  }
+  .loading{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+  </div>
+  <script src="../../asset/vendor/jquery-2.1.3.min.js"></script>
+  <script>
+  $(document).ready(function () {
+
+    var $container = $('.container');
+    $container.append(makeItems(4));
+    // 元素下方没显示的高度值小于TRIGGER_SCROLL_SIZE时，触发滚动
+    var TRIGGER_SCROLL_SIZE = 50;
+    var isLoading = false;
+    $container.scroll(function () {
+      if(!isLoading){
+        var totalHeight = $container.prop('scrollHeight');
+        var scrollTop = $container.scrollTop();
+        var height = $container.height();
+        if(totalHeight - (height + scrollTop) <= TRIGGER_SCROLL_SIZE){
+          // 加载更多数据
+          isLoading = true;
+          var $loading = makeLoading();
+          $container.append($loading);
+          setTimeout(function (argument) {
+            $loading.remove();
+            $container.append(makeItems(4));
+            isLoading = false;
+          }, 2000);
+        }
+      }
+    });
+    function makeItems(num) {
+      var html = [];
+      for(var i = 0; i < num; i++){
+        html.push(makeItem());
+      }
+      return html.join('');
+    }
+    function makeItem() {
+      return '<div class="item">item</div>';
+    }
+
+    function  makeLoading() {
+      var $loading = $('<div class="loading">加载中...</div>');
+      return $loading;
+    }
+  });
+  </script>
+</body>
+</html>

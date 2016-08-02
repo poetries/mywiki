@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证 demo</title>
+</head>
+
+<body>
+    <h2>用H5中的规范来做验证 https://html.spec.whatwg.org/multipage/forms.html#validitystate</h2>
+    <form action="">
+        <input type="number" class="number-input">
+    </form>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector('.number-input').addEventListener('change', function(event) {
+            console.log('valid status %o', event.target.validity);
+			/*{
+			  badInput: false
+			  customError: false,
+			  patternMismatch: false,
+			  rangeOverflow: false,
+			  rangeUnderflow: false,
+			  stepMismatch: false,
+			  tooLong: false,
+			  tooShort: false,
+			  typeMismatch: false,
+			  valid: false,
+			  valueMissing: true
+			}*/
+        });
+    }, false);
+    </script>
+</body>
+
+</html>

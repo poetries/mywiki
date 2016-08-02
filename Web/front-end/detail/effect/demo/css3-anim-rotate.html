@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>翻转效果(用CSS3 Animation实现)</title>
+    <style>
+    .block {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: #333;
+        background-color: #ff0;
+    }
+    
+    .block-back {
+        background-color: #f00;
+    }
+    
+    .anim {
+        -webkit-animation: rotate .5s both;
+        animation: rotate .5s both;
+    }
+    
+    @-webkit-keyframes rotate {
+        0% {
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+        50% {
+            -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+        }
+        100% {
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+    }
+    
+    @keyframes rotate {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+        50% {
+            opacity: 1;
+            -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+        }
+        100% {
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="block">点我翻转</div>
+    <script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.block').click(function() {
+            var $this = $(this);
+            $this.removeClass('anim');
+            setTimeout(function() {
+                $this.addClass('anim');
+                setTimeout(function() {
+                	$this.toggleClass('block-back');
+                }, 250);// 动画到正面宽度为0时，切换背面的样式
+            }, 10);
+        });
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../../asset/vendor/number-controller/number-controller.css">
+</head>
+<body>
+	<style>
+        .cart td{
+            vertical-align: middle;
+        }
+        .cart img{
+            display: block;
+            background-color: #ff0;
+            height: 40px;
+            width: 40px;
+        }
+        .cart .des{
+            width: 80px;
+        }
+        .cart td{
+            padding: 10px;
+        }
+    </style>
+    <table class="cart">
+    	<tr>
+    		<th><input type="checkbox" name="" class="select-all"></th>
+    		<th>名称</th>
+    		<th>数量</th>
+    		<th>价格</th>
+    	</tr>
+        <tr class="cart__item">
+            <td class="cart__item__info"><input type="checkbox" name="" id=""></td>
+            <td class="cart__item__info cart__item__name">葡萄干</td>
+            <td class="cart__item__info cart__item__num"></td>
+            <td class="cart__item__info cart__item__price">￥<span class="cart__item__price__text">20</span></td>
+        </tr>
+
+        <tr class="cart__item">
+            <td class="cart__item__info"><input type="checkbox" name="" id=""></td>
+            <td class="cart__item__info cart__item__name">牛奶</td>
+            <td class="cart__item__info cart__item__num"></td>
+            <td class="cart__item__info cart__item__price">￥<span class="cart__item__price__text">50</span></td>
+        </tr>
+    </table>
+    总价：<span id="total-price"></span>
+    <script src="../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script src="../../asset/vendor/number-controller/number-controller.js"></script>
+    <script src="demo.js">0</script>
+</body>
+</html>

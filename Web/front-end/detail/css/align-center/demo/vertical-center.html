@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>垂直居中</title>
+    <link rel="stylesheet" href="../../../../asset/vendor/base.css">
+    <style>
+    .wrap {
+        background-color: #f00;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <h2>单行文本的垂直居中</h2>
+    <div id="single-line" class="wrap">
+        随你走在天际，看繁华满地。
+    </div>
+    <style>
+    #single-line {
+        height: 40px;
+        line-height: 40px;
+    }
+    </style>
+    <h2>高度不固定的元素的垂直居中</h2>
+    <h3>用table</h3>
+    <style>
+    .table td {
+        vertical-align: middle;
+    }
+    
+    .table img {
+        display: block;
+        background-color: #ff0;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .table .des {
+        width: 80px;
+    }
+    
+    .table td {
+        padding: 10px;
+    }
+    </style>
+    <table class="table">
+        <tr>
+            <td>
+                <input type="checkbox" name="" id="">
+            </td>
+            <td><img src="" alt=""></td>
+            <td class="des">一些描述一些描述一些描述一些描述一些描述一些描述一些描述一些描述一些描述</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="" id="">
+            </td>
+            <td><img src="" alt=""></td>
+            <td class="des">一些描述一些描述一些描述一些描</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="" id="">
+            </td>
+            <td><img src="" alt=""></td>
+            <td class="des">一些描述一些描述一些描述一些描述一些描述一些描述一些描述一些描述一些描述</td>
+        </tr>
+    </table>
+    <h3>用 display: table; 和 display: table-cell;来做</h3>
+    <style>
+    #not-sure-height {
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 100px;
+        display: table;
+        /*让元素以表格形式渲染*/
+    }
+    
+    #not-sure-height .cell {
+        display: table-cell;
+        /*让元素以表格的单元素格形式渲染*/
+        vertical-align: middle;
+        /*使用元素的垂直对齐*/
+    }
+    
+    #not-sure-height .cell .inner {
+        height: 120px;
+        background-color: #ddd;
+    }
+    </style>
+    <div id="not-sure-height" class="wrap">
+        <div class="cell">
+            <div class="inner">随你走在天际，看繁华满地。</div>
+        </div>
+    </div>
+    <style>
+    #not-sure-height2 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 100px;
+    }
+    
+    #not-sure-height2 .inner {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: #ddd;
+        padding: 10px 0;
+    }
+    </style>
+    <div id="not-sure-height2" class="wrap">
+        <div class="inner">随你走在天际，看繁华满地。</div>
+    </div>
+</body>
+
+</html>

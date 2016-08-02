@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix{
+    *zoom: 1;
+}
+.container{
+	width: 960px;
+	margin: 50px auto;
+}
+.row{
+	margin-bottom: 20px;
+}
+.row .col{
+	height: 50px;
+}
+.left.col{
+	background: #f00;
+}
+.right.col{
+	background: #0f0;
+}
+
+.two-both-float-row .left.col{
+	float: left;
+	width: 600px;
+}
+.two-both-float-row .right.col{
+	float: left;
+	margin-left: 10px;
+	width: 350px;
+}
+
+
+.float-left-right-row .left.col{
+	float: left;
+	width: 600px;
+}
+.float-left-right-row .right.col{
+	float: right;
+	width: 350px;
+}
+
+
+.one-float-row .left.col{
+	float: left;
+	width: 600px;
+}
+.one-float-row .right.col{
+	margin-left: 610px;
+}
+
+.inline-block-row{
+	font-size: 0;
+}
+.inline-block-row .col{
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;/* 否则可能会出现参差不齐的现象 */
+}
+.inline-block-row .left.col{
+	width: 600px;
+}
+.inline-block-row .right.col{
+	margin-left: 10px;
+	width: 350px;
+}
+
+.middle.col{
+	background-color: #00f;
+}
+
+.three-both-float-row .left.col{
+	float: left;
+	width: 600px;
+}
+.three-both-float-row .middle.col{
+	float: left;
+	width: 160px;
+}
+.three-both-float-row .right.col{
+	float: left;
+	width: 200px;
+}
+
+.float-left-right-none-row .left.col{
+	width: 600px;
+	float: left;
+}
+.float-left-right-none-row .right.col{
+	float: right;
+	width: 200px;
+}
+
+.three-inline-block-row{
+	font-size: 0;
+}
+.three-inline-block-row .col{
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;/* 否则可能会出现参差不齐的现象 */
+}
+.three-inline-block-row .left.col{
+	width: 600px;
+}
+.three-inline-block-row .middle.col{
+	width: 160px;
+}
+.three-inline-block-row .right.col{
+	width: 200px;
+}
+

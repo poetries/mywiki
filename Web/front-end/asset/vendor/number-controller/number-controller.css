@@ -1,0 +1,50 @@
+.number-controller:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: '.';
+}
+
+
+.number-controller .minus-btn,
+.number-controller .number-input,
+.number-controller .plus-btn
+{
+    font-size: 12px;
+
+    float: left;
+
+    color: #333;
+}
+
+.number-controller .minus-btn,
+.number-controller .plus-btn
+{
+    line-height: 28px;
+
+    width: 28px;
+    height: 28px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #28e;
+    border: 1px solid #d7d6d6;
+    background: #fff;
+    text-decoration: none;
+}
+
+.number-controller .number-input
+{
+    /*width: 25px; 脚本中来指定*/
+    height: 26px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #d7d6d6;
+    border-right: none;
+    border-left: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+    <script>
+    (function() {
+        var Deferred = function() {
+            var deferred = {};
+            var promise = {
+                then: function(done) {
+                    var returnedPromise;
+                    deferred.resolve = function(data) {
+                        if (done && $.isFunction(done)) {
+                            returnedPromise = done(data);
+                        }
+                    };
+                    if (returnedPromise && jQuery.isFunction(returned.returnedPromise)) {
+                        returnedPromise.resolve = function(){
+
+                        }
+                    }
+                    return Deferred();
+                },
+                promise: function() {
+                    return promise;
+                }
+            }
+            $.extend(deferred, promise);
+            return deferred;
+        };
+
+        function a() {
+            var dfd = new Deferred();
+            setTimeout(function() {
+                dfd.resolve('a');
+            }, 100);
+            return dfd.promise();
+        }
+
+        function b(data) {
+            var dfd = new Deferred();
+            console.log(data);
+            setTimeout(function() {
+                dfd.resolve('b');
+            }, 100);
+            return dfd.promise();
+        }
+
+        function c() {
+            console.log('c');
+        }
+
+        a().then(b).then(c);
+    })();
+    </script>
+</body>
+
+</html>

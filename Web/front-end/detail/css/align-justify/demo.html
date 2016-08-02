@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>两端对齐demo</title>
+    <style>
+    .container {
+        width: 960px;
+        margin: 50px auto;
+        text-align: justify;
+    }
+    /* 没有下面的代码，两端对齐不生效 */
+    .container:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .item {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        background: #ff0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    <div class="container">Hello world! Hello, Suzhou!</div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script>
+    function getImageHAndW(url) {
+        $("<img/>", {
+            load: function() {
+                console.log('url:' + url + ';' + this.width + ' ' + this.height);
+            },
+            src: url
+        });
+    }
+    getImageHAndW('http://cn.vuejs.org/images/logo.png');
+    getImageHAndW('http://developer.baidu.com/resources/online/common/img/logo.png');
+    getImageHAndW('http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=a7723f5f7e59');
+    </script>
+</body>
+
+</html>

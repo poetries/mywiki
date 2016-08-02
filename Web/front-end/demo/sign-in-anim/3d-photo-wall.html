@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>签到demo 3d</title>
+    <style type="text/css">
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .wrap{
+        background: url(img/3d-bg.jpg) no-repeat;
+        width: 1080px;
+        height: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*background-color: #ff0;*/
+        overflow: hidden;
+    }
+    .sign-in{
+        position: relative;
+        margin: 50px auto;
+        /*background-color: #ff0;*/
+    }
+    .sign-in__line{
+        font-size: 0;
+    }
+    .sign-in__img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+        display: none;
+        height: 100px;
+        width: 150px;
+        background-color: #fff;
+        -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+    }
+    .sign-in__img--anim{
+        transition: all .5s ease-out;
+        margin: 0;
+    }
+
+    </style>
+</head>
+
+<body>
+    <!--
+        1. 第一层 显示刚出现的，然后到第二层
+        1. 第二层 最多放N个，超过N个，到第三层
+        1. 第三层 最多放N个，超过N个，隐藏
+
+      -->
+    <div class="wrap">
+        <button class="add-btn">新增签到</button>
+        <button class="add-multi-btn">新增40个签到</button>
+        <p>已签到人数为 <span id="total-num">0</span></p>
+        <div class="sign-in">
+        </div>
+        <script src="../../asset/vendor/jquery-2.1.3.min.js"></script>
+    </div>
+    <script src="3d-photo-wall.js"></script>
+</body>
+
+</html>

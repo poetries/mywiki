@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0e90d2;
+}
+
+a:hover {
+  color: #0b6fa2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.nav__items-list {
+  font-size: 0;
+}
+
+.nav__list-wrap {
+  margin-bottom: 20px;
+}
+
+.nav__item {
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#tip {
+  margin-top: 50px;
+  line-height: 1.5;
+}
+
+#tip ul ul {
+  padding-left: 15px;
+}
+
+#tip li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.auto-complate {
+  display: none;
+  position: fixed;
+  width: calc(100% - 100px);
+  top: 100px;
+  left: 50px;
+  background: #F1F1F1;
+  text-align: left;
+  border-radius: 4px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+  border: 1px solid #aaa;
+  z-index: 2147483646;
+  font-size: 16px;
+}
+
+.auto-complate__search-area {
+  padding: 10px;
+  background-color: #F1F1F1;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #C6C9CE;
+}
+
+.auto-complate__item:hover,
+.auto-complate__item--selected {
+  background-color: #BBCEE9;
+}
+
+.auto-complate__input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000;
+  font-size: 20px;
+  height: 34px;
+  margin-bottom: 0;
+  padding: 4px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #E8E8E8;
+  box-shadow: #444 0px 0px 1px;
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.auto-complate__content a {
+  display: block;
+  line-height: 1.5;
+  padding: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.auto-complate__link {
+  font-size: 14px;
+  color: rgb(34, 70, 132);
+}
+
+.auto-complate__match-str {
+  color: #333;
+  text-decoration: underline;
+}
+
+.nav__item [data-shortcut]:after {
+  content: "("attr(data-shortcut)")";
+  color: #f60;
+}
+
+.nav__item a {
+  display: block;
+  /*first-letter 只对 display:block的有效*/
+  line-height: 1.5;
+}
+
+.nav__item a:not([data-shortcut])::first-letter {
+  color: #f60;
+}

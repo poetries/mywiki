@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>色子</title>
+    <style>
+    body{
+    	display: -webkit-flex;
+    	display: -moz-flex;
+    	display: -ms-flex;
+    	display: -o-flex;
+    	display: flex;
+    }
+    .dice {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        margin: 16px;
+        padding: 4px;
+        background-color: #e7e7e7;
+        width: 104px;
+        height: 104px;
+        object-fit: contain;
+        box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
+        border-radius: 10%;
+    }
+    
+    .pice {
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin: 4px;
+        background-color: #333;
+        box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    }
+    
+    .dice--first>.pice {
+        margin: auto;
+    }
+    
+    .dice--second {
+        justify-content: space-between;
+    }
+    
+    .dice--second>.pice:nth-child(2) {
+        align-self: flex-end;
+    }
+    
+    .dice--third {
+        justify-content: space-between;
+    }
+    
+    .dice--third>.pice:nth-child(2) {
+        align-self: center;
+        /*margin: auto; 和上面那句等效*/
+    }
+    
+    .dice--third>.pice:nth-child(3) {
+        align-self: flex-end;
+    }
+    
+    .dice--fourth,.dice--sixth {
+    	flex-direction: column;
+        justify-content: space-between;
+    }
+    .dice--fourth>.column,.dice--sixth>.column{
+    	display: flex;
+        justify-content: space-between;
+    }
+
+    .dice--fifth {
+    	flex-direction: column;
+        justify-content: space-between;
+    }
+    .dice--fifth>.column{
+    	display: flex;
+        justify-content: space-between;
+    }
+    .dice--fifth>.pice{
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    </style>
+</head>
+
+<body>
+	<!-- http://davidwalsh.name/flexbox-dice -->
+    <div class="dice dice--first">
+        <div class="pice"></div>
+    </div>
+    <div class="dice dice--second">
+        <div class="pice"></div>
+        <div class="pice"></div>
+    </div>
+    <div class="dice dice--third">
+        <div class="pice"></div>
+        <div class="pice"></div>
+        <div class="pice"></div>
+    </div>
+    <div class="dice dice--fourth">
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+    </div>
+
+    <div class="dice dice--fifth">
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+        <div class="pice"></div>
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+    </div>
+
+    <div class="dice dice--sixth">
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+        <div class="column">
+            <div class="pice"></div>
+            <div class="pice"></div>
+        </div>
+    </div>
+</body>
+
+</html>
