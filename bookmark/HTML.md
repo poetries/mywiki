@@ -17,6 +17,7 @@
 * [Differences from HTML4](http://www.swordair.com/docs/html5-diff/)
 * [ Markdown Syntax Documentation](http://daringfireball.net/projects/markdown/syntax#blockquote)
 * [Transactional HTML Email Templates](http://blog.mailgun.com/transactional-html-email-templates/)
+* [在这页图表里综合了HTML和XHTML元素。通过这张图表，你可以知道每个具体元素属于哪个](https://rawgit.com/w3c/elements-of-html/master/index.html)
 
 ## HTML5
 
