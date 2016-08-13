@@ -4,6 +4,10 @@
 
 - [nipponcolors-配色工具，非常小清新](http://nipponcolors.com/)
 
+### 各种在线小工具集合
+
+- [Tool](http://tool.lu/)
+
 ### 图片优化
 
 - [智图_图片压缩在线工具_在线制作webp](http://zhitu.isux.us/)
