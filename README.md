@@ -122,6 +122,7 @@
  - [数据管理](bookmark/数据管理.md)
  - [在线代码运行](bookmark/在线代码运行.md)
  - [插件库](bookmark/插件库.md)	
+ - [sublime专题](bookmark/sublime-text.md)
  - [Sublime常用插件总结](bookmark/Sublime常用插件总结.md)
  - [速查表](bookmark/速查表.md)
  - [常用库与框架的使用文档](bookmark/常用库与框架的使用文档.md)
@@ -136,5 +137,5 @@
 
 ---
 
-#### 持续更新，最后一次更新于 2016-8-02....
+#### 持续更新，最后一次更新于 2016-8-13....
 
