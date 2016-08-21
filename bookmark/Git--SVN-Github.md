@@ -12,3 +12,4 @@
   - [github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
   - [my-git](https://github.com/xirong/my-git)
   - [explain-git-with-d3](http://onlywei.github.io/explain-git-with-d3/)
+  - [Pro Git简体中文版](http://iissnan.com/progit/)
