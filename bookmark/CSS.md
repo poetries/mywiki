@@ -25,6 +25,9 @@
 
 - 综合
   
+  - [一份清单，按字母表顺序列出了每个CSS属性](http://www.blooberry.com/indexdot/css/propindex/all.htm)
+  - [css速查表](http://webdesign.about.com/od/css/a/css_workflow.htm)
+  - [css简写速查表](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=http%3A%2F%2Fwww.eddiewelker.com%2Fwp-content%2Fuploads%2F2007%2F09%2Fcsscheatsheet.pdf)
   - [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
   - [css术语](http://apps.workflower.fi/vocabs/css/zh_CN#vendor-prefix)
   - [CSS - Contents and compatibility](http://www.quirksmode.org/css/contents.html)
