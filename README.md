@@ -15,8 +15,12 @@
 ### 时间笔记项目管理
 
   - [为知笔记](http://www.wiz.cn/)
-  - [番茄时间管理法](http://alloyteam.github.io/AlloyTimer/)
-  - [奇妙清单](https://www.wunderlist.com/zh/)
+  - [番茄时间管理](http://alloyteam.github.io/AlloyTimer/)
+  - [奇妙清单-解决问题：明确每日工作目标和清单](https://www.wunderlist.com/zh/)
+  - [高效To Do-解决问题：每日待办的轻重缓急一目了然](http://www.gxtodo.com/)
+  - [坚果云-解决问题：工作资料的同步备份和快速搜索](https://www.jianguoyun.com/)
+  - [Pocket-解决问题：工作时间看到的好内容收集](https://getpocket.com/)
+  - [Outlook-解决问题：治好了手机上翻墙才能用的Gmail](https://www.microsoft.com/zh-cn/outlook-com/)
   - [XMind](http://www.xmindchina.net/)
   - [百度脑图](http://naotu.baidu.com/)
   - [好用的思维导图](https://www.processon.com)
