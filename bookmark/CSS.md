@@ -25,6 +25,9 @@
 
 - 综合
   
+  - [CSS简写形式参考书](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=http%3A%2F%2Fwww.eddiewelker.com%2Fwp-content%2Fuploads%2F2007%2F09%2Fcsscheatsheet.pdf)
+  - [一份非常完整的网页CSS速查表.](http://lesliefranke.com/files/reference/csscheatsheet.html)
+  - [收藏了各种布局的CSS文件](http://www.thenoodleincident.com/tutorials/box_lesson/boxes.html)
   - [一份清单，按字母表顺序列出了每个CSS属性](http://www.blooberry.com/indexdot/css/propindex/all.htm)
   - [css速查表](http://webdesign.about.com/od/css/a/css_workflow.htm)
   - [css简写速查表](http://www.eddiewelker.com/wp-content/uploads/2007/09/csscheatsheet.pdf)
