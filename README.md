@@ -1,45 +1,42 @@
----
 
 #### [收录日常发现的好的文章和资源>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>](https://github.com/poetries/mywiki/issues)
 
----
 
 ### 缓解疲劳的网站
-  
- - [Calm](https://www.calm.com/)
- - [donothingfor2minute](http://www.donothingfor2minutes.com/)
- - [A Soft Murmur](http://asoftmurmur.com/)
-
 ---
+
+- [Calm](https://www.calm.com/)
+- [donothingfor2minute](http://www.donothingfor2minutes.com/)
+- [A Soft Murmur](http://asoftmurmur.com/)
+
 
 ### 时间笔记项目管理
-
-  - [为知笔记](http://www.wiz.cn/)
-  - [番茄时间管理](http://alloyteam.github.io/AlloyTimer/)
-  - [奇妙清单-解决问题：明确每日工作目标和清单](https://www.wunderlist.com/zh/)
-  - [高效To Do-解决问题：每日待办的轻重缓急一目了然](http://www.gxtodo.com/)
-  - [坚果云-解决问题：工作资料的同步备份和快速搜索](https://www.jianguoyun.com/)
-  - [Pocket-解决问题：工作时间看到的好内容收集](https://getpocket.com/)
-  - [Outlook-解决问题：治好了手机上翻墙才能用的Gmail](https://www.microsoft.com/zh-cn/outlook-com/)
-  - [XMind](http://www.xmindchina.net/)
-  - [百度脑图](http://naotu.baidu.com/)
-  - [好用的思维导图](https://www.processon.com)
-  - [墨刀 - 免费的移动应用原型与线框图工具](https://modao.cc/)
-  - [Teambition-最好用的团队协作平台--项目管理](https://www.teambition.com)
-  - [优质的mardown在线写作平台](http://markdown.xiaoshujiang.com/)
-
 ---
 
+- [为知笔记](http://www.wiz.cn/)
+- [番茄时间管理](http://alloyteam.github.io/AlloyTimer/)
+- [奇妙清单-解决问题：明确每日工作目标和清单](https://www.wunderlist.com/zh/)
+- [高效To Do-解决问题：每日待办的轻重缓急一目了然](http://www.gxtodo.com/)
+- [坚果云-解决问题：工作资料的同步备份和快速搜索](https://www.jianguoyun.com/)
+- [Pocket-解决问题：工作时间看到的好内容收集](https://getpocket.com/)
+- [Outlook-解决问题：治好了手机上翻墙才能用的Gmail](https://www.microsoft.com/zh-cn/outlook-com/)
+- [XMind](http://www.xmindchina.net/)
+- [百度脑图](http://naotu.baidu.com/)
+- [好用的思维导图](https://www.processon.com)
+- [墨刀 - 免费的移动应用原型与线框图工具](https://modao.cc/)
+- [Teambition-最好用的团队协作平台--项目管理](https://www.teambition.com)
+- [优质的mardown在线写作平台](http://markdown.xiaoshujiang.com/)
+
+
 ### 参考类
+---
 
 - [秀米 XIUMI | 秀米 XIUMI](http://xiumi.us/) 
 - [易企秀|免费移动场景应用自营销管家](http://eqxiu.com/#/home)
 - [云来·中国最大的移动APP云服务提供商](http://www.liveapp.cn/)
 
-
-
----
 ### 导航类
+---
 
 - 前端
 
@@ -82,11 +79,9 @@
   - [网站设计-自动给出最佳配色](http://www.materialpalette.com/)
   - [用户体验导航 ](http://www.uedh.cn/index.php)
  
-  
----  
-
 
 ### 在线学习好去处
+---
 
 - 国内：
 
@@ -103,44 +98,42 @@
   - [Edx](https://www.edx.org/)
 
 
----
-
-
 ## Resource 以下是分类
+---
 
- - [ToolBox](bookmark/Tools.md)
- - [Front-End-develop-Tools](bookmark/Front-End -Develop -Tools.md)
- - [Blog-国内前端博客](bookmark/Blog.md)
- - [HTML](bookmark/HTML.md)
- - [CSS](bookmark/CSS.md)
- - [Javascript](bookmark/Javascript.md)
- - [UED](bookmark/UED.md)
- - [UI](bookmark/UI.md)
- - [VPN](bookmark/VPN.md)
- - [IP-Info](bookmark/IP-Info.md)
- - [设计-ICON资源](bookmark/设计.md)
- - [前端工程构建](bookmark/前端工程构建.md)
- - [实用参考手册](bookmark/实用参考手册API.md)
- - [兼容性](bookmark/兼容性.md)
- - [移动前端开发](bookmark/移动前端开发.md)
- - [性能](bookmark/性能.md)
- - [数据管理](bookmark/数据管理.md)
- - [在线代码运行](bookmark/在线代码运行.md)
- - [插件库](bookmark/插件库.md)	
- - [sublime专题](bookmark/sublime-text.md)
- - [Sublime常用插件总结](bookmark/Sublime常用插件总结.md)
- - [速查表](bookmark/速查表.md)
- - [常用库与框架的使用文档](bookmark/常用库与框架的使用文档.md)
- - [编码规范](bookmark/开发规范.md)
- - [Git--SVN-Github](bookmark/Git--SVN-Github.md)
- - [开发工具类](bookmark/开发工具类.md)
- - [各大公司开源项目](bookmark/各大公司开源项目.md)
- - [作品集](bookmark/作品集.md)
- - [程序员简历模板系列](https://github.com/hacke2/ResumeSample)
- - [很不错的在线个人简历](bookmark/很不错的在线个人简历.md)
+- [ToolBox](bookmark/Tools.md)
+- [Front-End-develop-Tools](bookmark/Front-End -Develop -Tools.md)
+- [Blog-国内前端博客](bookmark/Blog.md)
+- [HTML](bookmark/HTML.md)
+- [CSS](bookmark/CSS.md)
+- [Javascript](bookmark/Javascript.md)
+- [UED](bookmark/UED.md)
+- [UI](bookmark/UI.md)
+- [VPN](bookmark/VPN.md)
+- [IP-Info](bookmark/IP-Info.md)
+- [设计-ICON资源](bookmark/设计.md)
+- [前端工程构建](bookmark/前端工程构建.md)
+- [实用参考手册](bookmark/实用参考手册API.md)
+- [兼容性](bookmark/兼容性.md)
+- [移动前端开发](bookmark/移动前端开发.md)
+- [性能](bookmark/性能.md)
+- [数据管理](bookmark/数据管理.md)
+- [在线代码运行](bookmark/在线代码运行.md)
+- [插件库](bookmark/插件库.md)	
+- [sublime专题](bookmark/sublime-text.md)
+- [Sublime常用插件总结](bookmark/Sublime常用插件总结.md)
+- [速查表](bookmark/速查表.md)
+- [常用库与框架的使用文档](bookmark/常用库与框架的使用文档.md)
+- [编码规范](bookmark/开发规范.md)
+- [Git--SVN-Github](bookmark/Git--SVN-Github.md)
+- [开发工具类](bookmark/开发工具类.md)
+- [各大公司开源项目](bookmark/各大公司开源项目.md)
+- [作品集](bookmark/作品集.md)
+- [程序员简历模板系列](https://github.com/hacke2/ResumeSample)
+- [很不错的在线个人简历](bookmark/很不错的在线个人简历.md)
 
 
 ---
 
-#### 持续更新，最后一次更新于 2016-9-3....
+#### 持续更新，最后一次更新于 2016-9-18....
 
