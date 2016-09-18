@@ -3,7 +3,6 @@
 
 
 ### 缓解疲劳的网站
----
 
 - [Calm](https://www.calm.com/)
 - [donothingfor2minute](http://www.donothingfor2minutes.com/)
@@ -11,7 +10,6 @@
 
 
 ### 时间笔记项目管理
----
 
 - [为知笔记](http://www.wiz.cn/)
 - [番茄时间管理](http://alloyteam.github.io/AlloyTimer/)
@@ -29,14 +27,12 @@
 
 
 ### 参考类
----
 
 - [秀米 XIUMI | 秀米 XIUMI](http://xiumi.us/) 
 - [易企秀|免费移动场景应用自营销管家](http://eqxiu.com/#/home)
 - [云来·中国最大的移动APP云服务提供商](http://www.liveapp.cn/)
 
 ### 导航类
----
 
 - 前端
 
@@ -81,7 +77,7 @@
  
 
 ### 在线学习好去处
----
+
 
 - 国内：
 
@@ -99,7 +95,6 @@
 
 
 ## Resource 以下是分类
----
 
 - [ToolBox](bookmark/Tools.md)
 - [Front-End-develop-Tools](bookmark/Front-End -Develop -Tools.md)
@@ -133,7 +128,6 @@
 - [很不错的在线个人简历](bookmark/很不错的在线个人简历.md)
 
 
----
 
 #### 持续更新，最后一次更新于 2016-9-18....
 
