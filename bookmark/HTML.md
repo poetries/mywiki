@@ -1,5 +1,5 @@
 ## HTML
-
+- [HTML语义化](http://justineo.github.io/slideshows/semantic-html/)  一定要了解，否则很容易标签乱用
 * [Jump Start HTML5: Basics - Learnable](https://learnable.com/books/jump-start-html5-basics/online/cover)
 * [DCloud HBuilder-最佳HTML5开发工具](http://www.dcloud.net.cn/)
 * [The W3C Markup Validation Service](http://validator.w3.org/)
