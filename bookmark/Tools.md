@@ -151,7 +151,7 @@
 
 - [Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)
 - [百度静态资源公共库](http://cdn.code.baidu.com/)
-- [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
+- [360网站卫士常用前端公共库CDN服务--360网站卫士前端公共库已停止服务](http://libs.useso.com/)
 - [开放静态文件 CDN ](http://staticfile.org/)
 - [微软CDN服务](http://www.asp.net/ajax/cdn)
 - [阿里云](https://bbs.aliyun.com/read/139395.html)
