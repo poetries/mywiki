@@ -1,0 +1,1 @@
+- [代码片段在线](http://www.phpxs.com/code/javascript/)
