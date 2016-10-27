@@ -4,6 +4,10 @@
 
 - [nipponcolors-配色工具，非常小清新](http://nipponcolors.com/)
 
+### 切图神器
+
+- [切图神器--比mark-Man好用](http://barretlee.github.io/SuperMarker/index_cn.html)
+
 ### 各种在线小工具集合
 
 - [Tool](http://tool.lu/)
