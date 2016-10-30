@@ -20,6 +20,7 @@
   - [一款在线使用纯CSS3实现长阴影的效果，一款强大的扁平化长投影制造器](http://sandbox.juan-i.com/longshadows/)
   - [一个在线随机取色工具，可以随机获取十六进制、RGB、HSl等颜色](http://colourco.de/)
   - [CSS小工具](http://linxz.github.io/tianyizone/)
+  - [不知道CSS某个颜色类该怎么命名？到这里来查询吧](http://chir.ag/projects/name-that-color/)
 
 - CSS3
   - [动画工具[Tool] - CSS3动画参考 by Tencent ISUX | DMDC](http://isux.tencent.com/css3/tools.html)
