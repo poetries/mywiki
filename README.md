@@ -16,6 +16,7 @@
 - [奇妙清单-解决问题：明确每日工作目标和清单](https://www.wunderlist.com/zh/)
 - [高效To Do-解决问题：每日待办的轻重缓急一目了然](http://www.gxtodo.com/)
 - [坚果云-解决问题：工作资料的同步备份和快速搜索](https://www.jianguoyun.com/)
+- [永硕e盘：在线网络硬盘--拥有自己独立二级域名，小额存储数据非常方便](http://www.ys168.com/)
 - [Pocket-解决问题：工作时间看到的好内容收集](https://getpocket.com/)
 - [Outlook-解决问题：治好了手机上翻墙才能用的Gmail](https://www.microsoft.com/zh-cn/outlook-com/)
 - [XMind](http://www.xmindchina.net/)
@@ -135,5 +136,5 @@
 
 
 
-##### 持续更新，最后一次更新于 2016-10-03....
+##### 持续更新，最后一次更新于 2016-11-06....
 
