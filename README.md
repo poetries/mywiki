@@ -21,7 +21,7 @@
 - [XMind](http://www.xmindchina.net/)
 - [百度脑图](http://naotu.baidu.com/)
 - [好用的思维导图](https://www.processon.com)
-- [幕布：便捷的在线思维工具](http://mubu.io/)
+- [幕布：便捷的在线思维工具--简直不能再爱](http://mubu.io/)
 - [Teambition-最好用的团队协作平台--项目管理](https://www.teambition.com)
 - [优质的mardown在线写作平台](http://markdown.xiaoshujiang.com/)
 
@@ -77,11 +77,11 @@
   - [网站设计-自动给出最佳配色](http://www.materialpalette.com/)
   - [用户体验导航 ](http://www.uedh.cn/index.php)
  
+
 - 综合
 
-  - [优秀网站集结地--简直就是一个大的收藏夹](http://lackar.com/aa/)
-  
-  
+  - [优秀网站集结地--简直就是一个大的收藏夹](http://lackar.com/aa/)
+
 ---
 
 ### 在线学习好去处
