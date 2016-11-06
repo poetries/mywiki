@@ -18,12 +18,10 @@
 - [坚果云-解决问题：工作资料的同步备份和快速搜索](https://www.jianguoyun.com/)
 - [永硕e盘：在线网络硬盘--拥有自己独立二级域名，小额存储数据非常方便](http://www.ys168.com/)
 - [Pocket-解决问题：工作时间看到的好内容收集](https://getpocket.com/)
-- [Outlook-解决问题：治好了手机上翻墙才能用的Gmail](https://www.microsoft.com/zh-cn/outlook-com/)
 - [XMind](http://www.xmindchina.net/)
 - [百度脑图](http://naotu.baidu.com/)
 - [好用的思维导图](https://www.processon.com)
 - [幕布：便捷的在线思维工具](http://mubu.io/)
-- [墨刀 - 免费的移动应用原型与线框图工具](https://modao.cc/)
 - [Teambition-最好用的团队协作平台--项目管理](https://www.teambition.com)
 - [优质的mardown在线写作平台](http://markdown.xiaoshujiang.com/)
 
@@ -66,8 +64,8 @@
 
 - 搜素
   
-  - [快搜--好用](http://so.chongbuluo.com/)
-  - [网盘检索工具](http://www.xilinjie.com)
+  - [快搜](http://so.chongbuluo.com/)
+  - [好用的网盘检索工具--西林街](http://www.xilinjie.com)
 
 - 设计
 
@@ -79,7 +77,10 @@
   - [网站设计-自动给出最佳配色](http://www.materialpalette.com/)
   - [用户体验导航 ](http://www.uedh.cn/index.php)
  
-
+- 综合
+  - [优秀网站集结地--简直就是一个大的收藏夹](http://lackar.com/aa/)
+  
+  
 ---
 
 ### 在线学习好去处
