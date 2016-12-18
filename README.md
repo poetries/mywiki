@@ -14,6 +14,7 @@
 - [为知笔记](http://www.wiz.cn/)
 - [番茄时间管理](http://alloyteam.github.io/AlloyTimer/)
 - [奇妙清单-解决问题：明确每日工作目标和清单](https://www.wunderlist.com/zh/)
+- [trello-清单管理系统](https://trello.com/)
 - [高效To Do-解决问题：每日待办的轻重缓急一目了然](http://www.gxtodo.com/)
 - [坚果云-解决问题：工作资料的同步备份和快速搜索](https://www.jianguoyun.com/)
 - [永硕e盘：在线网络硬盘--拥有自己独立二级域名，小额存储数据非常方便](http://www.ys168.com/)
@@ -138,5 +139,5 @@
 
 
 
-##### 持续更新，最后一次更新于 2016-11-06....
+##### 持续更新，最后一次更新于 2016-12-18....
 
