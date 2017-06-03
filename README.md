@@ -106,7 +106,7 @@
 ## Resource 以下是分类
 
 - [ToolBox](bookmark/Tools.md)
-- [Front-End-develop-Tools](bookmark/Front-End -Develop -Tools.md)
+- [Front-End-develop-Tools](bookmark/Front-End-Develop-Tools.md)
 - [Blog-国内前端博客](bookmark/Blog.md)
 - [HTML](bookmark/HTML.md)
 - [CSS](bookmark/CSS.md)
@@ -138,6 +138,4 @@
 - [很不错的在线个人简历](bookmark/很不错的在线个人简历.md)
 
 
-
-##### 持续更新，最后一次更新于 2016-12-18....
 
