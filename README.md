@@ -58,7 +58,8 @@
   - [前端工具汇集](http://www.w3cplus.com/source/front-end-developer-excellent-tool.html)
   
 - 速查表
-  - [开发者速查表](http://devhints.cn/)
+
+  - [开发者速查表](http://devhints.cn/)
   
 - 大数据
  
