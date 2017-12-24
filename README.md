@@ -65,12 +65,6 @@
  
   - [大数据工具导航](http://hao.199it.com/)
 
-
-- 搜素
-  
-  - [快搜](http://so.chongbuluo.com/)
-  - [好用的网盘检索工具--西林街](http://www.xilinjie.com)
-
 - 设计
 
   - [设计导航](http://hao.shejidaren.com/)
