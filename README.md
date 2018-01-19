@@ -21,10 +21,10 @@
 - [Pocket-解决问题：工作时间看到的好内容收集](https://getpocket.com/)
 - [XMind](http://www.xmindchina.net/)
 - [百度脑图](http://naotu.baidu.com/)
-- [好用的思维导图](https://www.processon.com)
+- [processon](https://www.processon.com)
 - [幕布：便捷的在线思维工具--简直不能再爱](http://mubu.io/)
-- [Teambition-最好用的团队协作平台--项目管理](https://www.teambition.com)
-- [优质的mardown在线写作平台](http://markdown.xiaoshujiang.com/)
+- [Teambition-项目管理](https://www.teambition.com)
+- [小书匠](http://markdown.xiaoshujiang.com/)
 
 
 ### 参考类
@@ -75,7 +75,8 @@
   - [图灵创意导航](http://turingchina.cn/)
   - [网站设计-自动给出最佳配色](http://www.materialpalette.com/)
   - [用户体验导航 ](http://www.uedh.cn/index.php)
- 
+  - [图标管理](https://icomoon.io/)
+
 
 - 综合
 
