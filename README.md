@@ -60,6 +60,7 @@
 - 速查表
 
   - [开发者速查表](http://devhints.cn/)
+  - [Linux命令搜索引擎](http://wangchujiang.com/linux-command/)
   
 - 大数据
  
