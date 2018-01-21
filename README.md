@@ -80,7 +80,8 @@
 
 - 综合
 
-  - [优秀网站集结地--简直就是一个大的收藏夹](http://lackar.com/aa/)
+  - [优秀网站集结地](http://lackar.com/aa/)
+  - [静态网页生成工具-把md文件生成网页](http://wangchujiang.com/idoc/)
 
 ---
 
