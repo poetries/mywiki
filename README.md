@@ -81,7 +81,7 @@
 - 综合
 
   - [优秀网站集结地](http://lackar.com/aa/)
-  - [静态网页生成工具-把md文件生成网页](http://wangchujiang.com/idoc/)
+  - [静态网页生成工具-把md文件生成网页](http://wangchujiang.com/idoc/)
 
 ---
 
