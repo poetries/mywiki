@@ -104,7 +104,7 @@
   - [Edx](https://www.edx.org/)
 
 
-## Resource 以下是分类
+## 分类
 
 - [ToolBox](bookmark/Tools.md)
 - [Front-End-develop-Tools](bookmark/Front-End-Develop-Tools.md)
