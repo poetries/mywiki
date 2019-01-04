@@ -84,6 +84,7 @@
   - [优秀网站集结地](http://lackar.com/aa/)
   - [静态网页生成工具-把md文件生成网页](http://wangchujiang.com/idoc/)
   - [github emoji提交表情](https://emoji.muan.co/)
+  - [计算机学习笔记-优秀](https://cyc2018.github.io/CS-Notes/#/)
   
 ---
 
