@@ -41,11 +41,8 @@
 
   - [一个很酷炫的前端网站搜集器--推荐](http://jsdig.com/)
   - [最牛前端](http://f2er.club/)
-  - [前端网址导航 - WHYCSS](http://whycss.com/)
   - [大前端](http://www.daqianduan.com/nav)
   - [前端导航网址](http://caibaojian.com/links)
-  - [前端网址导航 - WHYCSS](http://whycss.com/)
-  - [前端圈 - 江湖录 - 前端导航](http://sentsin.com/daohang/)
   - [前端开发仓库 ](http://code.ciaoca.com/)
   - [前端收藏夹](http://collect.w3ctrain.com/)
   - [F2E 前端导航 - 前端工程师专用的导航](http://f2e.im/static/pages/nav/index.html)
