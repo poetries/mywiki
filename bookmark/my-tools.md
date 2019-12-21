@@ -32,6 +32,7 @@
 
 ## 在线实用
 
+- [Nginx配置在线生成](https://nginxconfig.io/)
 - [Github commit提交emmoj表情包](https://emoji.muan.co/)
 - [功能：选俩色彩就行，其他的网站会自动给出最佳配色](https://www.materialpalette.com/teal/cyan)
 - [在线抠图软件](https://www.gaoding.com/design/mega?id=40962600)
