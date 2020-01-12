@@ -29,6 +29,7 @@
 ### 其他
 
 - [开发者速查表](http://devhints.cn/)
+- [移动端调试工具spy-debugger](https://github.com/wuchangming/spy-debugger)
 
 ## 在线实用
 
