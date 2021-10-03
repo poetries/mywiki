@@ -34,3 +34,9 @@
   * [jQuery源码解析](http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/)
   * [jQuery source viewer](http://james.padolsey.com/jquery/#v=1.9.1&fn=)
   * [Ticket Graph – jQuery Core - Bug Tracker](http://bugs.jquery.com/ticketgraph)
+
+
+---
+
+> ![](http://img-repo.poetries.top/images/20211003165152.png)
+> 收藏面试题地址 [http://interview.poetries.top](http://interview.poetries.top)，精选海量面试题型

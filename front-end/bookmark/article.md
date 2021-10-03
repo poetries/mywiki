@@ -58,3 +58,9 @@ else {
 * [The state of Web Components](https://hacks.mozilla.org/2015/06/the-state-of-web-components)
 * [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.hbilswjcl)
 * [程序员的自我修养](http://wiki.jikexueyuan.com/project/a-programmer-prepares/)
+
+
+---
+
+> ![](http://img-repo.poetries.top/images/20211003165152.png)
+> 收藏面试题地址 [http://interview.poetries.top](http://interview.poetries.top)，精选海量面试题型

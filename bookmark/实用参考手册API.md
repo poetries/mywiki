@@ -74,3 +74,9 @@
   - [所有与Web相关的规范](https://platform.html5.org/)
   - [AlloyTeam团队规范文档](http://alloyteam.github.io/CodeGuide/)
   - [netease规范](http://nec.netease.com/standard)
+
+
+---
+
+> ![](http://img-repo.poetries.top/images/20211003165152.png)
+> 收藏面试题地址 [http://interview.poetries.top](http://interview.poetries.top)，精选海量面试题型
